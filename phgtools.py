@@ -5,9 +5,13 @@ from PHGv2Tools.Modules.CoreRangeDetecter import main as core_range_detecter_mai
 from PHGv2Tools.Modules.PlotImputedHvcf import main as plot_imputed_hvcf_main
 from PHGv2Tools.Modules.PlotPangenomeChromosomes import main as plot_pangenome_chromosomes_main
 from PHGv2Tools.Modules.RangePangenomeEvolution import main as range_pangenome_evolution_main
+from PHGv2Tools.Modules.FastaFromKey import main as fasta_from_key_main
+from PHGv2Tools.Modules.CheckSetup import main as check_setup
+from PHGv2Tools.__version__ import __version__
 
 def main():
     parser = argparse.ArgumentParser(prog='phgtools', description='PHG Tools Command Line Interface. CLI for the PHGv2Tools package')
+    parser.add_argument('--version', action='version', version='%(prog)s ' + __version__)
     subparsers = parser.add_subparsers(dest='command')
 
     # Check-haplotype-alleles
@@ -47,6 +51,18 @@ def main():
     parser_range_pangenome_evolution.add_argument('--reference-fasta', "-ref-fa", type=str, help='The reference file', required=True)
     parser_range_pangenome_evolution.add_argument('--range-bedfile', "-bed", type=str, help='The range bedfile', required=True)
 
+    #Fasta-from-key
+    parser_fasta_from_key = subparsers.add_parser('fasta-from-key', help='Fasta from key')
+    parser_fasta_from_key.add_argument('--merged-vcf', type=str, required=False, help='The path of the merged vcf file.')
+    parser_fasta_from_key.add_argument('--fastas-folder', type=str, required=True, help='The path of the folder containing fasta files of pangenome.')
+    parser_fasta_from_key.add_argument('--vcf-folder', type=str, required=True, help='The path of the folder containing vcf files.')
+    parser_fasta_from_key.add_argument('--hapIDtable', type=str, required=False, help='The path of the haplotype ID table.')
+    parser_fasta_from_key.add_argument('--key', type=str, required=True, help='The key to extract the fasta.')
+    parser_fasta_from_key.add_argument('--output-folder', '-o', type=str, help='The path of the output folder.', required=False)
+
+    # Check-setup
+    parser_check_setup = subparsers.add_parser('check-setup', help='Check if phgtools, phgv2 and its dependences are callable from everywhere')
+
     args = parser.parse_args()
 
 
@@ -72,6 +88,16 @@ def main():
     
     elif args.command == 'range-pangenome-evolution':
         range_pangenome_evolution_main(pangenome_hvcf_folder=args.pangenome_hvcf_folder, reference_fasta=args.reference_fasta, range_bedfile=args.range_bedfile)
+    
+    elif args.command == 'fasta-from-key':
+        # Ensure at least one of merged_vcf or hapIDtable is provided
+        if not args.merged_vcf and not args.hapIDtable:
+            parser.error("At least one of --merged-vcf or --hapIDtable must be provided.")
+        fasta_from_key_main(merged_vcf=args.merged_vcf, fastas_folder=args.fastas_folder, vcf_folder=args.vcf_folder, hapIDtable=args.hapIDtable, key=args.key, output_folder=args.output_folder)
+    
+    elif args.command == 'check-setup':
+        check_setup()
+
     else:
         parser.print_help()
 

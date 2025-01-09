@@ -12,6 +12,7 @@ dependencies:
   - samtools
   - agc=3.1
   - pandas
+  - perl
   - pip
   - pip:
       - pygenometracks

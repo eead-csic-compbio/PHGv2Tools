@@ -10,7 +10,7 @@ else:
 
 setup(
     name='PHGv2Tools',
-    version='0.1.0',
+    version='1.0.0',
     packages=find_packages(),
     entry_points={
         'console_scripts': [

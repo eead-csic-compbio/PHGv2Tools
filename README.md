@@ -18,8 +18,8 @@ It mainly works with [h.VCF](https://phg.maizegenetics.net/hvcf_specifications/)
 It basically works with two outputs of PHG:
 
 #### Pangenome haplotypes VCFs
-The pangenome graph is build from the reference genome. Ranges based in annotated genes are described, establishing by starting and ending nodes, physic coordinates at a chromosome. Aligning new genomes against it determines the presence/absence of each range at this genome. Then, it is possible to add to the pangenome, retaining also this new haplotype for the range, enriching the variability for it. With the function [Create VCF files](#https://phg.maizegenetics.net/build_and_load/#create-vcf-files) of PHG an haplotype file for each genome is obtained, as a h.VCF. It is useful to  [merge the VCFs](https://github.com/maize-genetics/phg_v2/blob/main/src/main/kotlin/net/maizegenetics/phgv2/cli/MergeHvcfs.kt) to do analysis of the graph as a whole. 
-Functions supported now:
+The pangenome graph is build from the reference genome. Ranges based in annotated genes are described, establishing by starting and ending nodes, physic coordinates at a chromosome. Aligning new genomes against it determines the presence/absence of each range at this genome. Then, it is possible to add to the pangenome, retaining also this new haplotype for the range, enriching the variability for it. With the module [Create VCF files](#https://phg.maizegenetics.net/build_and_load/#create-vcf-files) of PHG an haplotype file for each genome is obtained, as a h.VCF. It is useful to  [merge the VCFs](https://github.com/maize-genetics/phg_v2/blob/main/src/main/kotlin/net/maizegenetics/phgv2/cli/MergeHvcfs.kt) to do analysis of the graph as a whole. 
+Modules supported now:
 - [Core, accessory and unique ranges analysis](#Core-accesion-and-unique-ranges-analisys)
 - [Pangenome ranges evolution](#Pangenome-ranges-evolution)
 - [Plot pangenome regions/chromosomes](#Plot-pangenome-regions/chromosomes)
@@ -45,10 +45,8 @@ check-imputated-haplotype --hvcf-folder output/ --hvcf-file output/LineD.h.vcf
 plot-imputed-hvcf --input-hvcf output/LineD.h.vcf --pangenome-hvcf-folder output/ --reference-hvcf hvcf_files/Ref.h.vcf.gz
 ```
 
-
 ## Installation
 To use this package, a conda environment is used. It is a modified version of the original phg one, adding the pygenometracks package for python plotting. For everything further needed, it will be updated.
-(Here i should add the link of reference of both githubs repos, including the installation guide at phg.
 
 #### Download & install updated package
 ```
@@ -84,7 +82,23 @@ source ~/.bashrc
 #### Install PHG
 Ensure to have installed PHGv2. Follow the steps [here](https://phg.maizegenetics.net/installation/)
 
+#### Check the set up installation
+It is recomended to check if phgtools, phgv2 and its dependences are properly accessible. Run the following command:
+```
+phgtools check-setup
+```
+Ensure all dependencies of PHGv2 matches with the required version, and PHGv2 itself is properly installed and accessible.
+
+> NOTE: call all accessible scripts running ```phgtools``` plus the module to run [i.e. ```phgtools check-setup```] if phgtools is properly installed and available at your python path. 
+>
+> You can always add ```--help``` at any module to get brief information about all the possible arguments.
+>
+> If needed, feel free to directly call the script from the folder with ```python3 Modules/CoreRangeDetecter.py```. Notebooks are available and ready to be easily edited.
+>
+> Find a toy example dataset and its detailed pipeline. Ask or request whatever you may need.
+
 ## Usage
+
 - #### Core, accessory and unique ranges analysis
 Having a merged h.VCF file of the pangenome PHG database, it is possible to determine which ranges are found in all, only one or in certain genomes of the pangenome. As PHG ranges are based in genes annotation, it is possible to perform a parallelism between them. It is stapled for pangenome data analysis to think about core, accessory and unique genes:
 
@@ -93,7 +107,7 @@ Having a merged h.VCF file of the pangenome PHG database, it is possible to dete
 [img reference](https://www.bgi.com/us/plant-and-animal-pan-genome)
 Extrapolating this into the PHG ranges, it is useful to have the information of which ranges are shared or not.
 
-```core-range-detecter``` is the function which will give as output 2 png images:
+```core-range-detecter``` is the script which will give as output 2 png images:
   - bar plot of ranges distributed in how many genomes are found at pangenome.
   - sector diagram plotting the % of core, accessory and unique haplotypes.
   It takes as arguments:
@@ -107,7 +121,7 @@ Extrapolating this into the PHG ranges, it is useful to have the information of 
 
 A pangenome store all variability from species that a single reference genome can not. However, as long as increasing the amount of varieties included in a pangenome the growing slope breaks exponentially, showing a collapsed top. To plot how does these ranges storage in each species pangenome is usefull in order to optimize the ammount of data stored.
 
-``` range-pangenome-evolution``` is the function stacking one by one the haplotype files and plotting the number of ranges. Taking as arguments:
+``` range-pangenome-evolution``` is the script stacking one by one the haplotype files and plotting the number of ranges. Taking as arguments:
 
 ```
 --hvcf-folder // -hf <Folder path to the h.vcf files of the pangenome database>  #Built with phg create-maf-vcf
@@ -118,8 +132,8 @@ A pangenome store all variability from species that a single reference genome ca
 
   
 - #### Plot pangenome regions/chromosomes
-Function to plot a region of a chromosome (or the whole chr) of the pangenome.
-If not region is specified, it will be plotted the entire chromosome. The function is ```plot-pangenome-chromosomes``` and its agruments are:
+Module to plot a region of a chromosome (or the whole chr) of the pangenome.
+If not region is specified, it will be plotted the entire chromosome. The script is ```plot-pangenome-chromosomes``` and its agruments are:
 ```
 --hvcf-folder // -hvcf <Folder path to the h.vcf files of the pangenome database>  #Built with phg create-maf-vcf
 --reference-hvcf // -ref <Reference.h.vcf>  #Built with phg create-ref-vcf
@@ -183,7 +197,7 @@ Taking an imputed h.vcf from ```phg map-kmers``` and ```find-paths``` and plots 
 
 
 - #### Check identity against pangenome
-Reads all pangenome haplotypes and compare with an imputated h.vcf, to extract the percentage of the genome is used to build up the imputed haplotype. It is now only based in nº ranges itself, not based in base pairs absolute amount. Call the function with ```check-imputated-haplotype``` and provide as arguments:
+Reads all pangenome haplotypes and compare with an imputated h.vcf, to extract the percentage of the genome is used to build up the imputed haplotype. It is now only based in nº ranges itself, not based in base pairs absolute amount. Call the script with ```check-imputated-haplotype``` and provide as arguments:
 ```
 --hvcf-folder // -folder  <Folder path to the h.vcf files of the pangenome database>  #Built with phg create-maf-vcf
 --hvcf-file // -file <Imputed h.vcf>  #Built with phg find-paths
@@ -225,6 +239,34 @@ Match count for HOR_10892 is 17269 out of 65703 ranges(26.28%)
 Checking HOR_3365
 Match count for HOR_3365 is 16552 out of 65703 ranges(25.19%)
 ```
+- #### Extract fasta sequence from a pangenome range
+Extracts the fasta sequence from a range key of the pangenome.
+It can use either a merged vcf file or a haplotype ID table to extract the fasta.
+Requires the path of the folder containing the vcf files, the path of the folder containing the fasta files, the key to extract the fasta, end either the merged hvcf file or the haplotype ID table, build with ```phg merge-hvcf``` or ```phg hapid-sample-table``` options of the PHGv2 pipeline.
+If the output folder is not specified, the fasta will be printed at the console and not saved.
+If there are more than one genomes in pangenome owning the key, the fasta will be extracted from the first genome found (It doesn't matter).
+    
+> **Warning:**
+> It uses an indexed fasta with samtools faidx. If the fasta is not indexed, it will not work.
+>
+> ```perl -e 'for my $file (glob("/path/to/folder/*.fa")) { print "Indexing $file\n"; system("samtools faidx $file") == 0 or die "Failed to index $file: $!"; }'```
+>
+> Substitute your path fastas folder path; .fai files will be created. Ensure to work on phgtools conda env.
+
+Call the script with ```fasta-from-key``` and provide as arguments:
+
+```
+--fastas-folder <Folder containing all fastas from the pangenome genomes>
+--vcf-folder  <Folder path to the h.vcf files of the pangenome database>
+--key <Introduce the key ID of the range>
+```
+Then, provide one of the following files:
+```
+--merged-vcf  <Merged of all hvcf of the pangenome database>  #Built with phg merge-hvcfs 
+--hapIDtable  <.tsv of the pangenome ranges ID> #Built with phg hapid-sample-table
+```
+
+
 
 ## Notebooks
 PHGtools is ready to use as command line software. However, every script is ready to use either as a command line or a notebook. Download the files from [notebooks repository](https://github.com/jsarriaa/PHGv2Tools/tree/main/Notebooks). Find there a brief guide too.

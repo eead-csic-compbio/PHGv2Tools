@@ -200,9 +200,21 @@ phg_v2_example/
     │   └── Ref.fa 
     └── temp/
 ```
+
+With samtools, index the genomes fasta files for further cropping of sequences.
+The following oneliner prepare all the genomes of the pangenome fastas folder:
+```
+perl -e 'for my $file (glob("/scratch/PHG/PHGv2Tools/Example_database/data/prepared_genomes/*.fa")) { print "Indexing $file\n"; system("samtools faidx $file") == 0 or die "Failed to index $file: $!"; }'
+```
+
 Last step, to merge all hvcfs of Pangenome (LineA, LineB, LineC) in a single file using:
 ```
 phg merge-hvcfs --input-dir my/hvcf/directory --output-file output/merged_hvcfs.h.vcf --id-format CHECKSUM --reference-file --range-bedfile
+```
+Instead of merged hvcf files we can use a range summary table for utilities as ```fasta-from-key```.
+Run the phg command:
+```
+./phg hapid-sample-table --hvcf-dir <Path to directory holding hVCF files>  --output-file <.tsv output full path>
 ```
 
 This is then the files to have in mind for phgtools analysis:
@@ -210,12 +222,21 @@ This is then the files to have in mind for phgtools analysis:
 ```
 ├── data
 │   └── prepared_genomes
+│   │   ├── Ref-v5.fa
+│   │   ├── Ref-v5.fai
+│   │   ├── LineA.fa
+│   │   ├── LineA.fai
+│   │   ├── LineB.fa
+│   │   ├── LineB.fai
+│   │   ├── LineC.fa
+│   │   └── LineC.fai
 └── output
 │   │   └── vcf_files
 │   │       ├── LineA.h.vcf.gz ***
 │   │       ├── LineB.h.vcf.gz ***
 │   │       ├── LineC.h.vcf.gz ***
 │   │       ├── LineD_imputed.h.vcf ***
+│   │       ├── hapIDtable.tsv
 │   │       └── MergedLinesA_B_C.h.vcf ***
 └── vcf_dbs
     └── hvcf_files 
@@ -285,3 +306,44 @@ plot-imputed-hvcf --input-hvcf output/LineD.h.vcf --pangenome-hvcf-folder output
 ```
 It will plot the imputed h.vcf file:
 ![LineD_hvcf_plot](https://github.com/jsarriaa/PHGv2Tools/blob/main/Misc/Images/LineD.h.vcf.png)
+
+#### Export fasta sequence from range
+
+Note: before starting, ensure to have the merged h.vcf file or the hapIDtable.tsv file.
+
+```
+fasta-from-key --fastas-folder data/prepared_genomes --vcf-folder output/vcf_files/ --key 3efc16790e55a2a8334c939d0795dfde --merged-vcf output/merged_hvcfs.h.vcf
+```
+Or use instead:
+```
+fasta-from-key --fastas-folder data/prepared_genomes --vcf-folder output/vcf_files/ --key 3efc16790e55a2a8334c939d0795dfde --hapIDtable output/vcf_files/hapIDtable.tsv
+```
+If also adding ```--output output/vcf_files/``` will result in:
+```
+opening output/vcf_files//LineA.h.vcf.gz to extract the coordinates
+
+Sample name:  LineA
+Chromosome:  2
+Start:  21501
+End:  23500
+
+______________________________________________________________________________________
+
+cropping sequence for LineA from 2:21501-23500
+
+output file: output/vcf_files//LineA_2_21501_23500.fa
+```
+And the file will contain:
+``` 
+>2:21501-23500
+GCACGGCACGAAAGGAGCGAACCCGAGGGCGGGGGACAAGGAAGACCGACCCCGGACAAC
+CCCACCCCGGAACAGAGCGAGACGGGAACTAGAGGCGGCCCCACCGGGGGCAACCTGGAA
+[...]
+ATACCAGCGCGGAAGAACACGAGGCAAAAGGGACGAACCACGAGCAAAACGCCGGAGAAG
+CCGCACAGAGCCAAGCGGGGCGAGCCGAACGAAACCGCAGGGCGCCAACGGGGAAACAGG
+GCGACAGCAACGACGGACACGGCCCGGAAAGGCACAACCAGGAGCGCCACCCCAGGACGC
+AGCCAGAGACCGGCAACCCGGGGGGGGAGGAGGCCCCGGGCGTCGCCGCACGACGACACT
+CCAAGAGACCAGGCGATAGAGCGGGACGAATGAGAAGCCGCACAAACGACGAACGCGACC
+AAAAAGCGGAGGGGCAAAGGGCCACCACGGGAGCAGCACCACCAGGGGACCGAAACAGGG
+ACATCCAACACACGGGAGCG
+```
