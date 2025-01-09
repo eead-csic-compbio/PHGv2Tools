@@ -32,19 +32,24 @@ Modules supported now:
 
 #### Quick Start
 ```
-range-pangenome-evolution --hvcf-folder /Example_database/output/vcf_files/ --reference-file Ref.fa --range-bedfile output/ref_ranges.bed
+phgtools range-pangenome-evolution --pangenome-hvcf-folder /Example_database/output/vcf_files/ --reference-fasta Ref.fa --range-bedfile output/ref_ranges.bed
 
-core-range-detecter --pangenome-hvcf output/MergedLinesA_B_C.h.vcf
+phgtools core-range-detecter --pangenome-hvcf output/MergedLinesA_B_C.h.vcf
 
-plot-pangenome-chromosomes --hvcf-folder output/vcf_files/ --reference-hvcf output/Ref.h.vcf.gz --chromosome chr2 --region 15000-35000 --reference-fasta Ref.fa
+phgtools plot-pangenome-chromosomes --pangenome-hvcf-folder output/vcf_files/ --reference-hvcf output/Ref.h.vcf.gz --chromosome chr2 --region 15000-35000 --reference-fasta Ref.fa
 
-check-haplotype-alleles --hvcf output/MergedLinesA_B_C.h.vcf --reference-fasta Ref.fa --start 18800 --end 20100 --chromosome 2
+phgtools check-haplotype-alleles --pangenome-hvcf output/MergedLinesA_B_C.h.vcf --reference-fasta Ref.fa [--start 18800 --end 20100 --chromosome 2]
 
-check-imputated-haplotype --hvcf-folder output/ --hvcf-file output/LineD.h.vcf
+phgtools check-imputated-haplotype --pangenome-folder output/ --imputed-hvcf output/LineD.h.vcf
 
-plot-imputed-hvcf --input-hvcf output/LineD.h.vcf --pangenome-hvcf-folder output/ --reference-hvcf hvcf_files/Ref.h.vcf.gz
+phgtools plot-imputed-hvcf --imputed-hvcf output/LineD.h.vcf --pangenome-hvcf-folder output/ --reference-hvcf hvcf_files/Ref.h.vcf.gz
 ```
 
+<<<<<<< HEAD
+=======
+Find examples of usage at the [Example database](https://github.com/jsarriaa/PHGv2Tools/tree/main/Example_database)
+
+>>>>>>> origin/main
 ## Installation
 To use this package, a conda environment is used. It is a modified version of the original phg one, adding the pygenometracks package for python plotting. For everything further needed, it will be updated.
 
@@ -112,7 +117,7 @@ Extrapolating this into the PHG ranges, it is useful to have the information of 
   - sector diagram plotting the % of core, accessory and unique haplotypes.
   It takes as arguments:
 ```
-  --pangenome-hvcf // -hvcf  <Merged of all hvcf of the pangenome database>  #Built with phg merge-hvcfs 
+  --pangenome-hvcf // -phvcf  <Merged of all hvcf of the pangenome database>  #Built with phg merge-hvcfs 
 ```
 ![image_1_hvcf_plot](https://github.com/jsarriaa/PHGv2Tools/blob/main/Misc/Images/merged_hvcfs_19092024.h.vcf_1.png)
 ![image_2_hvcf_plot](https://github.com/jsarriaa/PHGv2Tools/blob/main/Misc/Images/merged_hvcfs_19092024.h.vcf_2.png)
@@ -124,9 +129,9 @@ A pangenome store all variability from species that a single reference genome ca
 ``` range-pangenome-evolution``` is the script stacking one by one the haplotype files and plotting the number of ranges. Taking as arguments:
 
 ```
---hvcf-folder // -hf <Folder path to the h.vcf files of the pangenome database>  #Built with phg create-maf-vcf
---reference-file // -ref <Reference.fasta>  #Built with phg prepare-assemblies
---range-bedfile // <reference_ranges.bed>   #Built with phg create-ranges
+--pangenome-hvcf-folder // -pfolder <Folder path to the h.vcf files of the pangenome database>  #Built with phg create-maf-vcf
+--reference-fasta // -ref-fa <Reference.fasta>  #Built with phg prepare-assemblies
+--range-bedfile // -bed  <reference_ranges.bed>   #Built with phg create-ranges
 ```
 ![range_evolution](https://github.com/jsarriaa/PHGv2Tools/blob/main/Misc/Images/range_evolution.png)
 
@@ -135,10 +140,10 @@ A pangenome store all variability from species that a single reference genome ca
 Module to plot a region of a chromosome (or the whole chr) of the pangenome.
 If not region is specified, it will be plotted the entire chromosome. The script is ```plot-pangenome-chromosomes``` and its agruments are:
 ```
---hvcf-folder // -hvcf <Folder path to the h.vcf files of the pangenome database>  #Built with phg create-maf-vcf
---reference-hvcf // -ref <Reference.h.vcf>  #Built with phg create-ref-vcf
+--pangenome-hvcf-folder // -pfolder <Folder path to the h.vcf files of the pangenome database>  #Built with phg create-maf-vcf
+--reference-hvcf // -refhvcf <Reference.h.vcf>  #Built with phg create-ref-vcf
 --chromosome // -chr <chrX> i.e. [chr1], [chr22]
---reference-fasta // -fa <Reference.fasta>  #Built with phg prepare-assemblies
+--reference-fasta // -ref-fa <Reference.fasta>  #Built with phg prepare-assemblies
 --region // -reg <START-END> i.e. [10000-20000]   #If not added, whole chr is plotted
 ```
 ![FULL_chr_plot](https://github.com/jsarriaa/PHGv2Tools/blob/main/Misc/Images/pangenome_FULL_chr5.png)
@@ -150,12 +155,12 @@ For those who are looking for genes alleles; Ranges are built with genes annotat
 
 These are the mandatory arguments:
 ```
---hvcf // -hf   <Merged of all hvcf of the pangenome database>  #Built with phg merge-hvcfs 
---reference-fasta // -ref   <Reference.fasta>  #Built with phg prepare-assemblies
+--pangenome-hvcf // -phvcf   <Merged of all hvcf of the pangenome database>  #Built with phg merge-hvcfs 
+--reference-fasta // -ref-fa   <Reference.fasta>  #Built with phg prepare-assemblies
 ```
 And then, provide the coordinates. These are optional, but will be asked ahead if there are not as a command line argument.
 ```
---chromosome // -c   <INT>  i.e. <2>
+--chromosome // -chr   <INT>  i.e. <2>
 --start // -s <START>   i.e. <1000>
 --end // -e  <END>  i.e. <5000>
 ```
@@ -189,9 +194,9 @@ Taking an imputed h.vcf from ```phg map-kmers``` and ```find-paths``` and plots 
 
 ```plot-imputed-hvcf``` takes as argument:
 ```
---input-hvcf // -hvcf <Imputed h.vcf>  #Built with phg find-paths
---reference-hvcf // -ref <Reference.h.vcf>  #Built with phg create-ref-vcf
---pangenome-hvcf-folder // -folder  <Folder path to the h.vcf files of the pangenome database>  #Built with phg create-maf-vcf
+--imputed-hvcf // -ihvcf <Imputed h.vcf>  #Built with phg find-paths
+--reference-hvcf // -refhvcf <Reference.h.vcf>  #Built with phg create-ref-vcf
+--pangenome-hvcf-folder // -pfolder  <Folder path to the h.vcf files of the pangenome database>  #Built with phg create-maf-vcf
 ```
 
 
@@ -199,8 +204,8 @@ Taking an imputed h.vcf from ```phg map-kmers``` and ```find-paths``` and plots 
 - #### Check identity against pangenome
 Reads all pangenome haplotypes and compare with an imputated h.vcf, to extract the percentage of the genome is used to build up the imputed haplotype. It is now only based in nº ranges itself, not based in base pairs absolute amount. Call the script with ```check-imputated-haplotype``` and provide as arguments:
 ```
---hvcf-folder // -folder  <Folder path to the h.vcf files of the pangenome database>  #Built with phg create-maf-vcf
---hvcf-file // -file <Imputed h.vcf>  #Built with phg find-paths
+--pangenome-hvcf-folder // -pf  <Folder path to the h.vcf files of the pangenome database>  #Built with phg create-maf-vcf
+--imputed-hvcf // -ihvcf <Imputed h.vcf>  #Built with phg find-paths
 ```
 Working on plotting the results, for now we get a list for the results:
 ```
