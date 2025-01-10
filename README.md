@@ -45,10 +45,11 @@ phgtools check-imputated-haplotype --pangenome-folder output/ --imputed-hvcf out
 
 phgtools plot-imputed-hvcf --imputed-hvcf output/LineD.h.vcf --pangenome-hvcf-folder output/ --reference-hvcf hvcf_files/Ref.h.vcf.gz
 
-fasta-from-key --fastas-folder data/prepared_genomes --vcf-folder output/vcf_files/ --key 3efc16790e55a2a8334c939d0795dfde --hapIDtable output/vcf_files/hapIDtable.tsv
+phgtools fasta-from-key --fastas-folder data/prepared_genomes --vcf-folder output/vcf_files/ --key 3efc16790e55a2a8334c939d0795dfde --hapIDtable output/vcf_files/hapIDtable.tsv
 ```
 
 =======
+
 Find examples of usage at the [Example database](https://github.com/jsarriaa/PHGv2Tools/tree/main/Example_database)
 
 ## Installation
