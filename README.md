@@ -251,6 +251,9 @@ Match count for HOR_3365 is 16552 out of 65703 ranges(25.19%)
 - #### Genome intersection from map Kmers
 When mapping fastq files against a pangenome database of PHG, using ```phg map-kmers```, a readMapping.txt containing all haplotype ranges found is produced. With this script, recover how many ranges from a single genome of the whole pangenome are matched. It also produces a plot about its distribution.
 ![Intersection_plot_13942](https://github.com/jsarriaa/PHGv2Tools/blob/main/Misc/Images/HOR_13942_ERR753323_readMapping.txt_HOR_13942.png)
+```
+Present ranges: 51832 / 60682 (85.42%)
+```
 Requires the readMapping.txt file itself, as long as the hapID ranges file of the pangenome, output of ``` phg sample-hapid-by-range```, and to introduce the genome of the pangenome you want to analyze.
 When calling the script with ```genome-intersection-from-map-kmers```, you must provide the following arguments:
 ```
