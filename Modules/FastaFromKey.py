@@ -122,6 +122,9 @@ def ExtractFastaFromCoord(fastas_folder, sample_name, chr, start, end, output_fo
 import os
 import argparse
 import gzip
+import sys
+from IPython import get_ipython
+
 
 if AmIaNotebook() == True:
 # Edit here the stuff if you are working here as a notebook

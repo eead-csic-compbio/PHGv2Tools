@@ -7,6 +7,7 @@ from PHGv2Tools.Modules.PlotPangenomeChromosomes import main as plot_pangenome_c
 from PHGv2Tools.Modules.RangePangenomeEvolution import main as range_pangenome_evolution_main
 from PHGv2Tools.Modules.FastaFromKey import main as fasta_from_key_main
 from PHGv2Tools.Modules.CheckSetup import main as check_setup
+from PHGv2Tools.Modules.GenomeIntersectionFromMapKmers import main as genome_intersection_from_map_kmers_main
 from PHGv2Tools.__version__ import __version__
 
 def main():
@@ -60,6 +61,13 @@ def main():
     parser_fasta_from_key.add_argument('--key', type=str, required=True, help='The key to extract the fasta.')
     parser_fasta_from_key.add_argument('--output-folder', '-o', type=str, help='The path of the output folder.', required=False)
 
+    #Genome-intersection-from-map-kmers
+    parser_genome_intersection_from_map_kmers = subparsers.add_parser('genome-intersection-from-map-kmers', help='Genome intersection from map kmers')
+    parser_genome_intersection_from_map_kmers.add_argument('--read-mapping', '-rm', type=str, required=True, help='The map kmers file, output of map kmer. (by default ends in readMapping.txt)')
+    parser_genome_intersection_from_map_kmers.add_argument('--hapID-ranges-file', '-hr', type=str, help='The hapID ranges file', required=True)
+    parser_genome_intersection_from_map_kmers.add_argument('--reference-genome', '-rg', type=str, help='The reference genome', required=True)
+    parser_genome_intersection_from_map_kmers.add_argument('--skip-plot', '-sp', action='store_true', help='Skip the plot', required=False, default=False)
+
     # Check-setup
     parser_check_setup = subparsers.add_parser('check-setup', help='Check if phgtools, phgv2 and its dependences are callable from everywhere')
 
@@ -94,6 +102,9 @@ def main():
         if not args.merged_vcf and not args.hapIDtable:
             parser.error("At least one of --merged-vcf or --hapIDtable must be provided.")
         fasta_from_key_main(merged_vcf=args.merged_vcf, fastas_folder=args.fastas_folder, vcf_folder=args.vcf_folder, hapIDtable=args.hapIDtable, key=args.key, output_folder=args.output_folder)
+
+    elif args.command == 'genome-intersection-from-map-kmers':
+        genome_intersection_from_map_kmers_main(args.read_mapping, args.hapID_ranges_file, args.reference_genome, args.skip_plot)
     
     elif args.command == 'check-setup':
         check_setup()

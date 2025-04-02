@@ -122,6 +122,17 @@ def check_pygenometracks():
     except FileNotFoundError:
         print("pygenometracks is not installed or not found in the PATH.")
 
+# check tqdm
+def check_tqdm():
+    try:
+        # Check if tqdm is callable
+        result = subprocess.run(['tqdm', '--version'], capture_output=True, text=True, check=True)
+        print("checking tqdm")
+        print(result.stdout)
+    except subprocess.CalledProcessError:
+        print("tqdm is not callable from everywhere. Please check your PATH.")
+    except FileNotFoundError:
+        print("tqdm is not installed or not found in the PATH.")
 
 def main():
     check_phgtools()
@@ -135,6 +146,7 @@ def main():
     check_tiledbvcf()
     check_perl()
     check_pygenometracks()
+    check_tqdm()
 
 
 if __name__ == "__main__":

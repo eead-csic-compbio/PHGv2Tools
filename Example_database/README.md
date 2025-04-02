@@ -207,6 +207,12 @@ The following oneliner prepare all the genomes of the pangenome fastas folder:
 perl -e 'for my $file (glob("/scratch/PHG/PHGv2Tools/Example_database/data/prepared_genomes/*.fa")) { print "Indexing $file\n"; system("samtools faidx $file") == 0 or die "Failed to index $file: $!"; }'
 ```
 
+Load the h.vcf files into the database:
+
+```
+phg load-vcf --vcf-dir Example_database/output/ --db-path Example_database/
+```
+
 Last step, to merge all hvcfs of Pangenome (LineA, LineB, LineC) in a single file using:
 ```
 phg merge-hvcfs --input-dir my/hvcf/directory --output-file output/merged_hvcfs.h.vcf --id-format CHECKSUM --reference-file --range-bedfile
@@ -214,7 +220,11 @@ phg merge-hvcfs --input-dir my/hvcf/directory --output-file output/merged_hvcfs.
 Instead of merged hvcf files we can use a range summary table for utilities as ```fasta-from-key```.
 Run the phg command:
 ```
-./phg hapid-sample-table --hvcf-dir <Path to directory holding hVCF files>  --output-file <.tsv output full path>
+phg hapid-sample-table --hvcf-dir <Path to directory holding hVCF files>  --output-file <.tsv output full path>
+```
+As well, scripts as ```genome-intersection-from-map-kmers``` uses a summary table for the ranges, obtained with:
+```
+phg sample-hapid-by-range --input-dir Example_database/output/vcf_files/ --output-file Example_database/output/hapIDranges.tsv
 ```
 
 This is then the files to have in mind for phgtools analysis:

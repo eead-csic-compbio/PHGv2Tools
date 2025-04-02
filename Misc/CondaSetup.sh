@@ -20,6 +20,7 @@ echo "  - pip" >> phgtools_environment.yml
 echo "  - pip:" >> phgtools_environment.yml
 echo "      - pygenometracks" >> phgtools_environment.yml
 echo "      - jupyter" >> phgtools_environment.yml
+echo "      - tqdm" >> phgtools_environment.yml
 
 # Check if the environment already exists and remove it if it does
 if conda env list | grep -q $ENV_NAME; then
