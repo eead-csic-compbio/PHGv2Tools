@@ -24,6 +24,7 @@ Modules supported now:
 - [Pangenome ranges evolution](#Pangenome-ranges-evolution)
 - [Plot pangenome regions/chromosomes](#Plot-pangenome-regions/chromosomes)
 - [Check haplotypes for a region](#Check-haplotypes-for-a-region)
+- [Extract fasta sequence from a pangenome range](#Extract-fasta-sequence-from-a-pangenome-range)
 
 #### Imputed haplotypes VCFs
 [Imputation](https://phg.maizegenetics.net/imputation/) is a powerful tool from PHG to achieve complete genomes even from low density sequence  or variant data. What is obtained after aligning kmers and getting the graph of the haplotype is a h.VCF file, which some data can be mined from it:
@@ -43,13 +44,14 @@ phgtools check-haplotype-alleles --pangenome-hvcf output/MergedLinesA_B_C.h.vcf 
 phgtools check-imputated-haplotype --pangenome-folder output/ --imputed-hvcf output/LineD.h.vcf
 
 phgtools plot-imputed-hvcf --imputed-hvcf output/LineD.h.vcf --pangenome-hvcf-folder output/ --reference-hvcf hvcf_files/Ref.h.vcf.gz
+
+phgtools fasta-from-key --fastas-folder data/prepared_genomes --vcf-folder output/vcf_files/ --key 3efc16790e55a2a8334c939d0795dfde --hapIDtable output/vcf_files/hapIDtable.tsv
 ```
 
-<<<<<<< HEAD
 =======
+
 Find examples of usage at the [Example database](https://github.com/jsarriaa/PHGv2Tools/tree/main/Example_database)
 
->>>>>>> origin/main
 ## Installation
 To use this package, a conda environment is used. It is a modified version of the original phg one, adding the pygenometracks package for python plotting. For everything further needed, it will be updated.
 
