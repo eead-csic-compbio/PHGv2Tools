@@ -30,6 +30,7 @@ Modules supported now:
 [Imputation](https://phg.maizegenetics.net/imputation/) is a powerful tool from PHG to achieve complete genomes even from low density sequence  or variant data. What is obtained after aligning kmers and getting the graph of the haplotype is a h.VCF file, which some data can be mined from it:
 - [Check identity against pangenome](#Check-identity-against-pangenome)
 - [Plot imputed genome](#Plot-imputed-genome)
+- [Genome intersection from map Kmers](Genome-intersection-from-map-kmers)
 
 #### Quick Start
 ```
@@ -246,6 +247,22 @@ Match count for HOR_10892 is 17269 out of 65703 ranges(26.28%)
 Checking HOR_3365
 Match count for HOR_3365 is 16552 out of 65703 ranges(25.19%)
 ```
+
+- #### Genome intersection from map Kmers
+When mapping fastq files against a pangenome database of PHG, using ```phg map-kmers```, a readMapping.txt containing all haplotype ranges found is produced. With this script, recover how many ranges from a single genome of the whole pangenome are matched. It also produces a plot about its distribution.
+![Intersection_plot_13942](https://github.com/jsarriaa/PHGv2Tools/blob/main/Misc/Images/HOR_13942_ERR753323_readMapping.txt_HOR_13942.png)
+Requires the readMapping.txt file itself, as long as the hapID ranges file of the pangenome, output of ``` phg sample-hapid-by-range```, and to introduce the genome of the pangenome you want to analyze.
+When calling the script with ```genome-intersection-from-map-kmers```, you must provide the following arguments:
+```
+--read-mapping  <readMapping.txt file path>
+--hapID-ranges-file  <hapIDrranges.tsv file path>
+--reference-genome  <GenomeName>
+```
+If you don't want to generate the plot (and save some time), add the flag:
+```
+--skip-plot
+```
+
 - #### Extract fasta sequence from a pangenome range
 Extracts the fasta sequence from a range key of the pangenome.
 It can use either a merged vcf file or a haplotype ID table to extract the fasta.
