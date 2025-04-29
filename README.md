@@ -300,3 +300,6 @@ PHGtools is ready to use as command line software. However, every script is read
 
 ## References
 The Practical Haplotype Graph, a platform for storing and using pangenomes for imputation  https://doi.org/10.1093/bioinformatics/btac410
+
+- #### Extract fasta sequence from a pangenome range
+Placeholder
