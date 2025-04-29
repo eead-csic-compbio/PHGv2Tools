@@ -293,9 +293,6 @@ Then, provide one of the following files:
 --hapIDtable  <.tsv of the pangenome ranges ID> #Built with phg hapid-sample-table
 ```
 
-- #### Genome intersection from map Kmers
-Placeholder
-
 
 
 ## Notebooks
