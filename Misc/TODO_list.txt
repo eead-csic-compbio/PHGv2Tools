@@ -1,0 +1,23 @@
+# Modules
+check-haplotype-alleles
+>  can I remove pangenome-hvcf
+
+core-range-detecter
+>  Same, can I remove pangenome-hvcf
+
+fasta-from-key
+>  Same, can I remove the pangenome-hvcf
+>  Can I use agc instead of the fasta files?
+
+##################################################
+##################################################
+
+-  Check naming and arguments
+-  Modern and smooth usage
+-  Delete ipynb and reesttructurate repo and its modules
+-  Add new modules + repo reestructurate (maybe integrate synteny ploter)
+               - Distance matrix + heatmap + filogenia
+               - Maybe Hamza utilities?
+-  Update conda and environment requirements for phg (include new java version)
+               - Check setup function
+
