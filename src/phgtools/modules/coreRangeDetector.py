@@ -271,7 +271,11 @@ def GenerateVisualizations(dict_ranges_count, core_ranges, unique_ranges, access
     # Add legend for bar plot
     unique_patch = mpatches.Patch(facecolor='#E74C3C', label='Unique (1 genome)', edgecolor='black', linewidth=1.2)
     core_patch = mpatches.Patch(facecolor='#3498DB', label=f'Core ({num_of_genomes} genomes)', edgecolor='black', linewidth=1.2)
-    accessory_patch = mpatches.Patch(facecolor='#F39C12', label='Accessory (2-12 genomes)', edgecolor='black', linewidth=1.2)
+    if num_of_genomes > 2:
+        accessory_label = f'Accessory (2-{num_of_genomes-1} genomes)'
+    else:
+        accessory_label = 'Accessory (2 genomes)'
+    accessory_patch = mpatches.Patch(facecolor='#F39C12', label=accessory_label, edgecolor='black', linewidth=1.2)
     ax1.legend(handles=[unique_patch, core_patch, accessory_patch], loc='upper left')
     
     # Pie chart: Core vs Unique vs Accessory
