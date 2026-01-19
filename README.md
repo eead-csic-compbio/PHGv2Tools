@@ -25,7 +25,7 @@ The pangenome graph is built from the reference genome with ranges based on anno
 
 
 ### Example database
-For a practical, step-by-step guide, see the [`Example_database/README_2.md`](Example_database/README_2.md) file in this repository. This README demonstrates how to generate, organize, and handle all files required by PHGv2Tools, covering the full workflow from raw data to analysis and visualization. This is the best starting point if you want to reproduce or understand the complete process with real data and outputs.
+For a practical, step-by-step guide, see the [`Example_database/README.md`](Example_database/README.md) file in this repository. This README demonstrates how to generate, organize, and handle all files required by PHGv2Tools, covering the full workflow from raw data to analysis and visualization. This is the best starting point if you want to reproduce or understand the complete process with real data and outputs.
 
 
 ## Installation
