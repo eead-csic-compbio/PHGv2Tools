@@ -1,0 +1,689 @@
+##fileformat=VCFv4.2
+##ALT=<ID=002c118816a5e8c89e208afce1187181,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:309628-315192,Checksum=002c118816a5e8c89e208afce1187181,RefRange=chr2:435101-440623,RefChecksum=a1d5eb068df6517ad99a31d2cf1820f8>
+##ALT=<ID=003c359b4a4fb8f480835ae62e7b82dc,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:440177-441313,Checksum=003c359b4a4fb8f480835ae62e7b82dc,RefRange=chr1:434965-436922,RefChecksum=b2022c2cae564cfc10249899a39dad15>
+##ALT=<ID=005784fec57cf38ccb0a0e7ffef11d27,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:494912-497054,Checksum=005784fec57cf38ccb0a0e7ffef11d27,RefRange=chr1:490860-492979,RefChecksum=fe3a3484978a495b5074a24a9c80287d>
+##ALT=<ID=025b848075593c5d267ab2d76e757458,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:11856-21254,Checksum=025b848075593c5d267ab2d76e757458,RefRange=chr1:13715-23120,RefChecksum=f5fbe522ed968abf6fdfb4902f64b2bb>
+##ALT=<ID=0268cb1e420f1c114988f793c6228c3d,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:473954-474829,Checksum=0268cb1e420f1c114988f793c6228c3d,RefRange=chr1:469818-470693,RefChecksum=675cb9d5e0ec74b7bac5a2c0496bff7b>
+##ALT=<ID=0280c370fe7f9f51adbedbd7c1a83738,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:117964-118524,Checksum=0280c370fe7f9f51adbedbd7c1a83738,RefRange=chr2:249687-250244,RefChecksum=fee8616706a3462ebf1e6c5a4ef84db6>
+##ALT=<ID=02cf160808173778a30345006d122e4b,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:11131-13176,Checksum=02cf160808173778a30345006d122e4b,RefRange=chr2:104575-106620,RefChecksum=43ca2c76f9075a224a1bae47638e01b6>
+##ALT=<ID=02d3f1c58a74e714a3c2bca171ac086a,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:141471-143708,Checksum=02d3f1c58a74e714a3c2bca171ac086a,RefRange=chr1:135925-138162,RefChecksum=02d3f1c58a74e714a3c2bca171ac086a>
+##ALT=<ID=04682820cfd921870a5152ebd27b5e79,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:482656-485153,Checksum=04682820cfd921870a5152ebd27b5e79,RefRange=chr1:476613-479112,RefChecksum=9fe431e0f1190efbd1423ec098f8c598>
+##ALT=<ID=04a5ed1c083e00de25e1336c2ebb4fa3,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:51173-53299,Checksum=04a5ed1c083e00de25e1336c2ebb4fa3,RefRange=chr1:44970-47059,RefChecksum=59800b39d5e0696ec95e925460a6b28e>
+##ALT=<ID=04de24a1ad77af16c9e088ea71a00f46,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:13177-14685,Checksum=04de24a1ad77af16c9e088ea71a00f46,RefRange=chr2:106621-108829,RefChecksum=7522b996272159f5813662e059de054e>
+##ALT=<ID=04fa87d5657150329dbddc465645bdfa,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:353187-358119,Checksum=04fa87d5657150329dbddc465645bdfa,RefRange=chr1:347613-352545,RefChecksum=df21c2ef722ba36668dd8e3c3527b839>
+##ALT=<ID=06bb6c74d1288721ac557055ecc0286c,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:164995-166158,Checksum=06bb6c74d1288721ac557055ecc0286c,RefRange=chr1:162954-164104,RefChecksum=f7f85e3ff876c02200e2c342d46bda8a>
+##ALT=<ID=06ec82949fb83aed027ab763f0540ec1,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:55665-58089,Checksum=06ec82949fb83aed027ab763f0540ec1,RefRange=chr1:54738-57163,RefChecksum=17f522d37c1d536ccea289d954ebdbbd>
+##ALT=<ID=075fd21cd41d577edf6307c6dd68b5a2,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:372451-374691,Checksum=075fd21cd41d577edf6307c6dd68b5a2,RefRange=chr1:371091-373334,RefChecksum=9c06f4edacc563cad9f98124d8a207d8>
+##ALT=<ID=07dbb5dc54e793fe98f9111a6d5ef72f,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:50152-52862,Checksum=07dbb5dc54e793fe98f9111a6d5ef72f,RefRange=chr2:187608-190369,RefChecksum=63e2ca577f42843e18e3cee12f07dcad>
+##ALT=<ID=0b4ad1102b2d4be89c1ea87351548283,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:231450-233328,Checksum=0b4ad1102b2d4be89c1ea87351548283,RefRange=chr1:225665-227543,RefChecksum=f2cca73fd25c471d540e11b5cf1194a3>
+##ALT=<ID=0c123ecae65e95342358ff41be3a3864,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:136098-137791,Checksum=0c123ecae65e95342358ff41be3a3864,RefRange=chr1:130578-132269,RefChecksum=e32c585e6911f67cbe4ee1463a37e609>
+##ALT=<ID=0cf928d78ca417824ce9894acb41159d,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:355870-357364,Checksum=0cf928d78ca417824ce9894acb41159d,RefRange=chr2:482335-483829,RefChecksum=e1c308c6393277485047993d480adc5b>
+##ALT=<ID=0d61f8370cad1d412f80b84d143e1257,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:1415-1415,Checksum=0d61f8370cad1d412f80b84d143e1257,RefRange=chr2:73208-75519,RefChecksum=32bfadff0125b3d87178a8f59c342784>
+##ALT=<ID=0d83a05b1423a30bed2ba428c3aad730,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:87836-90641,Checksum=0d83a05b1423a30bed2ba428c3aad730,RefRange=chr2:221003-223809,RefChecksum=8fa0cffe8f9e5cd7f20334e137a07ac4>
+##ALT=<ID=0d8b7b2691a7b0d19afdec3e278a8e72,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:105010-108392,Checksum=0d8b7b2691a7b0d19afdec3e278a8e72,RefRange=chr2:232541-235924,RefChecksum=9767cb5132eb07f4f4cad613950df139>
+##ALT=<ID=0d98b23a660c6c51525aaa7d6dde9e70,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:201633-203480,Checksum=0d98b23a660c6c51525aaa7d6dde9e70,RefRange=chr2:338024-339871,RefChecksum=0d98b23a660c6c51525aaa7d6dde9e70>
+##ALT=<ID=111fda9587b6ddfb18479d9956bf9956,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:109722-112137,Checksum=111fda9587b6ddfb18479d9956bf9956,RefRange=chr2:237254-239668,RefChecksum=6480980f0e9635daacbc128dfd99c76d>
+##ALT=<ID=12a06d62a1dbe5973c04f7a71814efc0,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:213784-216947,Checksum=12a06d62a1dbe5973c04f7a71814efc0,RefRange=chr2:350180-353343,RefChecksum=13ac48302bec153a2cc92b1c0aff6214>
+##ALT=<ID=12fa1eb66afdc901bdb912b746d7db3d,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:265248-267600,Checksum=12fa1eb66afdc901bdb912b746d7db3d,RefRange=chr1:259307-261667,RefChecksum=00e98d1b8a863e94783ed09fa5483ad7>
+##ALT=<ID=134c1e975a3baf6787244e0c118591a7,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:264851-271514,Checksum=134c1e975a3baf6787244e0c118591a7,RefRange=chr2:399339-405761,RefChecksum=9182dca2c5a11c125cb8a832060d5aba>
+##ALT=<ID=13a84540367fb1813918663f84d4e239,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:474830-476016,Checksum=13a84540367fb1813918663f84d4e239,RefRange=chr1:470694-471882,RefChecksum=4fb37d3bcdefdbea421887bfd10635bc>
+##ALT=<ID=148fc5d0dc0f3b6d29fb5dcdb25bad02,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:147319-151009,Checksum=148fc5d0dc0f3b6d29fb5dcdb25bad02,RefRange=chr2:282830-286529,RefChecksum=aec511ae6e0e2ec024a054fb8f579d0d>
+##ALT=<ID=14bf67724bf1ce907f15fd93c37a8be9,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:202094-204221,Checksum=14bf67724bf1ce907f15fd93c37a8be9,RefRange=chr2:323964-326094,RefChecksum=68265b6aeb187717406d0f7564b86e9a>
+##ALT=<ID=166329e84a53a7fc62257140cb626c98,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:24908-25487,Checksum=166329e84a53a7fc62257140cb626c98,RefRange=chr2:154097-160870,RefChecksum=9dcc1c248200ead6920da26f38b467b9>
+##ALT=<ID=1702f3d2ad5f513f473347856d3063b9,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:210947-214536,Checksum=1702f3d2ad5f513f473347856d3063b9,RefRange=chr2:332873-336462,RefChecksum=0e83e664ef5e9522af4439ace52995db>
+##ALT=<ID=1767b4c4d49ee3d3468181636b11ba6a,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:347448-350339,Checksum=1767b4c4d49ee3d3468181636b11ba6a,RefRange=chr2:474108-476997,RefChecksum=638bdc764f430981d96c04a6eacaf9c9>
+##ALT=<ID=17a66e4fee026c06ec746578b714e33d,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:80093-80744,Checksum=17a66e4fee026c06ec746578b714e33d,RefRange=chr1:74738-75389,RefChecksum=f876ad5c6c060818e0276e4a6d96e1f2>
+##ALT=<ID=17d05c7e641135cefa47fa41111f3090,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:69939-72587,Checksum=17d05c7e641135cefa47fa41111f3090,RefRange=chr2:203127-205774,RefChecksum=afe8cd670700e8ac280eff2d2c224ecc>
+##ALT=<ID=17fe23794f13c1c99dd0f1987ccb7be6,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:84380-85918,Checksum=17fe23794f13c1c99dd0f1987ccb7be6,RefRange=chr1:84947-86485,RefChecksum=f99ff5489bfc80dd6e17e31da2cc5937>
+##ALT=<ID=1854c6c91b66a3c910d1d84a4ac579e8,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:117593-121050,Checksum=1854c6c91b66a3c910d1d84a4ac579e8,RefRange=chr2:251807-255246,RefChecksum=72ba7c7ee68ce2ab97644a61bd7a082e>
+##ALT=<ID=185677ca071d8e4cae51a377a84e21f9,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:306637-309627,Checksum=185677ca071d8e4cae51a377a84e21f9,RefRange=chr2:432195-435100,RefChecksum=39c44a332eed917ef6784718afa32f95>
+##ALT=<ID=1a15a4f23a00e04f1fc56da73b96b729,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:284155-285097,Checksum=1a15a4f23a00e04f1fc56da73b96b729,RefRange=chr2:420662-421607,RefChecksum=aba502f4cc8e033e70e1711fbe23eff1>
+##ALT=<ID=1b37e0d178045d16d9ec5c5c3a41ee3d,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:83436-87835,Checksum=1b37e0d178045d16d9ec5c5c3a41ee3d,RefRange=chr2:216605-221002,RefChecksum=d8db80a4d7e58a3847f9c641bed9262a>
+##ALT=<ID=1c2101796c78336969dc60e0c9bc1bfe,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:364908-366708,Checksum=1c2101796c78336969dc60e0c9bc1bfe,RefRange=chr1:359117-360917,RefChecksum=1c2101796c78336969dc60e0c9bc1bfe>
+##ALT=<ID=1cdc20a1e8b525e2fc181b0f2fc2115a,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:8758-11130,Checksum=1cdc20a1e8b525e2fc181b0f2fc2115a,RefRange=chr2:102156-104574,RefChecksum=ff6c745029b175f04de07d7bf392f438>
+##ALT=<ID=1d9723191f17b3f1a0b5b93f16c77bf6,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:6126-41216,Checksum=1d9723191f17b3f1a0b5b93f16c77bf6,RefRange=chr2:85401-96863,RefChecksum=adb12f8753486f6c7d3d777cdd003ee9>
+##ALT=<ID=1df9fee2e03504b4f2ff11b76929fc0e,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:354011-358634,Checksum=1df9fee2e03504b4f2ff11b76929fc0e,RefRange=chr1:352546-357258,RefChecksum=83de2f0f9f4b109d6ab88a440cb366bb>
+##ALT=<ID=1eb8bb0371efb3ae4db95067ebf90221,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:162011-164357,Checksum=1eb8bb0371efb3ae4db95067ebf90221,RefRange=chr1:156477-158823,RefChecksum=102fcb661876deb35ec2e550d756b5c2>
+##ALT=<ID=1fafb3829ba2bd2589bacec7c587c5b9,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:300250-301553,Checksum=1fafb3829ba2bd2589bacec7c587c5b9,RefRange=chr2:425811-427113,RefChecksum=65e84a9d92ddd3c56dca5c3852cdc2be>
+##ALT=<ID=20665100d8f769180d87685b17fd4761,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:354766-355410,Checksum=20665100d8f769180d87685b17fd4761,RefRange=chr2:481186-481830,RefChecksum=20665100d8f769180d87685b17fd4761>
+##ALT=<ID=221dd8ec366eef30591d639af98c0109,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:267601-268768,Checksum=221dd8ec366eef30591d639af98c0109,RefRange=chr1:261668-262827,RefChecksum=1e8216f681b28ca680996e6e2fa6f5fd>
+##ALT=<ID=22475fff97150ab90c3da9940116edf4,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:280237-285989,Checksum=22475fff97150ab90c3da9940116edf4,RefRange=chr1:278600-284349,RefChecksum=effc4852628428aa707cfe6f32b93358>
+##ALT=<ID=224f9bc8afa03c54abd52b1c54cb80c8,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:3949-4832,Checksum=224f9bc8afa03c54abd52b1c54cb80c8,RefRange=chr1:5900-6787,RefChecksum=dab00238bf5efad6621e640cd2327947>
+##ALT=<ID=24b9f17c4a518258b515458e4e223606,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:62796-65053,Checksum=24b9f17c4a518258b515458e4e223606,RefRange=chr1:61905-64165,RefChecksum=fc22dc87a2c410925bcdcdb32ed7c445>
+##ALT=<ID=25bf38fa32dcc1563121580406b1274d,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:87844-89930,Checksum=25bf38fa32dcc1563121580406b1274d,RefRange=chr1:88410-90502,RefChecksum=f5ed4d299037e50111b9b2c2d8afbc28>
+##ALT=<ID=25e3bcd6f161f3a4b2916bc72d9ebed0,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:200072-201632,Checksum=25e3bcd6f161f3a4b2916bc72d9ebed0,RefRange=chr2:336463-338023,RefChecksum=25e3bcd6f161f3a4b2916bc72d9ebed0>
+##ALT=<ID=260c3f51d08e340bc58a3b76f5da68b3,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:7075-8166,Checksum=260c3f51d08e340bc58a3b76f5da68b3,RefRange=chr2:100484-101566,RefChecksum=47262d8c7acd52eeb571d6596a2888cb>
+##ALT=<ID=2795b09adc99746b6789560e93b1ab15,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:201211-204567,Checksum=2795b09adc99746b6789560e93b1ab15,RefRange=chr1:195645-198787,RefChecksum=66be2ac5719ae8bbd28679c3c7503124>
+##ALT=<ID=27dda2b93c44255b0eef1a5e48e16006,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:276569-280236,Checksum=27dda2b93c44255b0eef1a5e48e16006,RefRange=chr1:274931-278599,RefChecksum=c9aa1b1e9a61372895f402e55dfbe162>
+##ALT=<ID=2891d6ba6003a0cdf964cea2f8c53c5e,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:110283-111920,Checksum=2891d6ba6003a0cdf964cea2f8c53c5e,RefRange=chr2:242041-243649,RefChecksum=58f72dd5a15f1e9ef6bdd2c358e5d91e>
+##ALT=<ID=29881847c26ff67133738135fbdb2f6a,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:98630-99253,Checksum=29881847c26ff67133738135fbdb2f6a,RefRange=chr1:99241-99864,RefChecksum=1b1a8626dccb21a9d3cf6f4b8877a319>
+##ALT=<ID=29ae980865e3f254b7844055037a0516,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:8167-8757,Checksum=29ae980865e3f254b7844055037a0516,RefRange=chr2:101567-102155,RefChecksum=173b583847d50bc09283145bf80d1f93>
+##ALT=<ID=2a65986ac18e282f070f00b38868a2cc,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:152587-155392,Checksum=2a65986ac18e282f070f00b38868a2cc,RefRange=chr1:147043-149848,RefChecksum=2a65986ac18e282f070f00b38868a2cc>
+##ALT=<ID=2c83171b3c481b4b4fd57009947b140c,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:264899-268394,Checksum=2c83171b3c481b4b4fd57009947b140c,RefRange=chr1:262828-266324,RefChecksum=316fb9f6213acf04051f1b6d57a7bc43>
+##ALT=<ID=2e89123a3f4d8df661f61bca147b9566,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:358635-359281,Checksum=2e89123a3f4d8df661f61bca147b9566,RefRange=chr1:357259-357905,RefChecksum=3058996e2d3135812c95f8efbdd61ef9>
+##ALT=<ID=2f1a8ddba41a83cce59a5b15b40b7d97,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:274986-282398,Checksum=2f1a8ddba41a83cce59a5b15b40b7d97,RefRange=chr2:409204-410320,RefChecksum=74d9a321fc46ddc5b0288da234be788d>
+##ALT=<ID=31770418e44c846addb73c23d62b477a,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:104706-108337,Checksum=31770418e44c846addb73c23d62b477a,RefRange=chr1:105331-108945,RefChecksum=895f7473d02c85fc131ae14b7a094942>
+##ALT=<ID=318eeb26b1a9719dc58c6c0b02a260c3,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:58090-60141,Checksum=318eeb26b1a9719dc58c6c0b02a260c3,RefRange=chr1:57164-59215,RefChecksum=e5e57a24b9f2721d9a120f658a1e0390>
+##ALT=<ID=33910f2be02d0ca1787dc87e19c6e633,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:388273-391169,Checksum=33910f2be02d0ca1787dc87e19c6e633,RefRange=chr1:386914-389811,RefChecksum=297a1fb776a25f97e7e84a8e978059ea>
+##ALT=<ID=3395427510ef6d944befa2f70b3f2490,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:165739-168504,Checksum=3395427510ef6d944befa2f70b3f2490,RefRange=chr2:292689-295454,RefChecksum=8d98d9dc45f8690c3384f898c7dbd177>
+##ALT=<ID=36e49160a4f8ce6da9faa9c803abf068,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:477471-478506,Checksum=36e49160a4f8ce6da9faa9c803abf068,RefRange=chr1:473337-474372,RefChecksum=2d11311db3d0457f06ef3d116c23780c>
+##ALT=<ID=36e96d3c4e355251290e88bdee459711,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:221658-223350,Checksum=36e96d3c4e355251290e88bdee459711,RefRange=chr2:343562-345254,RefChecksum=2599acefe8444ffafd13761c38088108>
+##ALT=<ID=3717f1f12b134af19697fc387ec0be85,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:220577-221657,Checksum=3717f1f12b134af19697fc387ec0be85,RefRange=chr2:342481-343561,RefChecksum=3717f1f12b134af19697fc387ec0be85>
+##ALT=<ID=377383a1c4ea8eecb974d34b41e68c25,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:343487-345662,Checksum=377383a1c4ea8eecb974d34b41e68c25,RefRange=chr1:337913-340088,RefChecksum=377383a1c4ea8eecb974d34b41e68c25>
+##ALT=<ID=37c06a865f2155b06172fa63ca704b9c,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:95910-96747,Checksum=37c06a865f2155b06172fa63ca704b9c,RefRange=chr1:90503-91341,RefChecksum=df28e0c777a4acb01a3d63189e7dede9>
+##ALT=<ID=381fe1be368f1b02141ea49fe9dc0985,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:348492-349974,Checksum=381fe1be368f1b02141ea49fe9dc0985,RefRange=chr1:342918-344400,RefChecksum=381fe1be368f1b02141ea49fe9dc0985>
+##ALT=<ID=3856fb6a9c1e988d587848628ef3014e,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:233709-235430,Checksum=3856fb6a9c1e988d587848628ef3014e,RefRange=chr2:355595-357352,RefChecksum=ffedaabb0d1cf85cc5279807705a4612>
+##ALT=<ID=390b858bfd389706491b3e0da24c26df,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:147416-149032,Checksum=390b858bfd389706491b3e0da24c26df,RefRange=chr1:141870-143488,RefChecksum=cb96b4edf5d140553162ad3c6c862065>
+##ALT=<ID=3a798696b35afa595c120ddb1df72ae8,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:450382-452514,Checksum=3a798696b35afa595c120ddb1df72ae8,RefRange=chr1:446297-448422,RefChecksum=f9a3c87c2489dd446e2c2802f9b020b0>
+##ALT=<ID=3c054d613923116316d4a6da605706ce,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:234584-238589,Checksum=3c054d613923116316d4a6da605706ce,RefRange=chr1:228799-232839,RefChecksum=d93d7e004f44e42fef4611f61c698fa9>
+##ALT=<ID=3c06b36b455ca80d8a7d8a29c258ecdc,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:26501-48508,Checksum=3c06b36b455ca80d8a7d8a29c258ecdc,RefRange=chr2:180033-183764,RefChecksum=b34c3588ed13cd2584d5e0e7a7ea70ef>
+##ALT=<ID=3c8f6d15b53410a1395a1c5684151a25,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:301540-303992,Checksum=3c8f6d15b53410a1395a1c5684151a25,RefRange=chr1:296001-298450,RefChecksum=31c04fd7f70a75d6ee67914c200ae2b0>
+##ALT=<ID=3cd334bcc9ffd50b43e5af3d1062876f,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:123365-130823,Checksum=3cd334bcc9ffd50b43e5af3d1062876f,RefRange=chr2:257569-265021,RefChecksum=8a8c570f571f1046f6eeca23f631bbb5>
+##ALT=<ID=3d67cc08826661db336595bf0d447e65,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:497055-497713,Checksum=3d67cc08826661db336595bf0d447e65,RefRange=chr1:492980-493638,RefChecksum=3d67cc08826661db336595bf0d447e65>
+##ALT=<ID=3dc3cd5f220c3e2739c5821ac4fd2781,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:124906-125677,Checksum=3dc3cd5f220c3e2739c5821ac4fd2781,RefRange=chr1:119381-120153,RefChecksum=68926b9d9b4325bc8bcb32cbdce8bf7b>
+##ALT=<ID=3eff49a9b56b6668c72031e7e62e601f,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:190596-192707,Checksum=3eff49a9b56b6668c72031e7e62e601f,RefRange=chr1:185033-187144,RefChecksum=e048b57f6291e43030077b1be063a377>
+##ALT=<ID=404044a8b4b3fd751c7351be954b1b96,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:373235-375990,Checksum=404044a8b4b3fd751c7351be954b1b96,RefRange=chr1:367444-370194,RefChecksum=212747d17125ac210f1cfc3e11342a4c>
+##ALT=<ID=40fde9eac9a0669c638862437ee8e125,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:446093-449229,Checksum=40fde9eac9a0669c638862437ee8e125,RefRange=chr1:443118-446296,RefChecksum=f4f0fc33ee0ddbe630f5cd8017820c15>
+##ALT=<ID=413ccd6aa4d1bc460fe7d768c3cce241,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:464931-465926,Checksum=413ccd6aa4d1bc460fe7d768c3cce241,RefRange=chr1:460832-461827,RefChecksum=396412a6da3e39396fe52e32d964fbf2>
+##ALT=<ID=4155cb69da6dcd8d8b945b8f0f666b52,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:43739-43804,Checksum=4155cb69da6dcd8d8b945b8f0f666b52,RefRange=chr2:123023-126611,RefChecksum=42a5a4bfed2a9944a2b98a548d2769e6>
+##ALT=<ID=418f5bfbe852ee8fe67abbad4d9be07f,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:99039-100867,Checksum=418f5bfbe852ee8fe67abbad4d9be07f,RefRange=chr1:97412-99240,RefChecksum=8b4b14fc0ff7813db1555cb83fe380d9>
+##ALT=<ID=41a13959e1ab219a06d921a633224ded,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:9714-11855,Checksum=41a13959e1ab219a06d921a633224ded,RefRange=chr1:11649-13714,RefChecksum=e212604b1011871c9b80c9d9249fbb73>
+##ALT=<ID=41d2d05adf5976cb6bfafb1d705fd8b8,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:108393-109721,Checksum=41d2d05adf5976cb6bfafb1d705fd8b8,RefRange=chr2:235925-237253,RefChecksum=f3d98253ff5bcc2f0969d54e2bc08113>
+##ALT=<ID=42d3785f46e5cacaf1004eac61d9f79e,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:457200-459780,Checksum=42d3785f46e5cacaf1004eac61d9f79e,RefRange=chr1:453107-455687,RefChecksum=15592c4c56d1a9a52be452c7e205514f>
+##ALT=<ID=43ba5caa15ea05530816352cd74d3713,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:423951-429159,Checksum=43ba5caa15ea05530816352cd74d3713,RefRange=chr1:422580-427547,RefChecksum=8055bd82c8dc62d19ec2f869ddf45a36>
+##ALT=<ID=4405904ee24724983ff21a5d25ec0916,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:214799-215865,Checksum=4405904ee24724983ff21a5d25ec0916,RefRange=chr1:213083-214149,RefChecksum=5640003cde98ed1b21c97f258733e8a8>
+##ALT=<ID=441421e59ce4d09c30e011511260b8fe,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:185574-188308,Checksum=441421e59ce4d09c30e011511260b8fe,RefRange=chr1:180017-182749,RefChecksum=6701442a845fd6ac948c5b75a07be680>
+##ALT=<ID=45e4afbeb6c78524dc6a772b4d73ab89,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:167174-168094,Checksum=45e4afbeb6c78524dc6a772b4d73ab89,RefRange=chr2:295455-296364,RefChecksum=4eec80ee77ce86c61e13c86e1cd954fb>
+##ALT=<ID=4664523becbbdd8af53c08d3b15d41a5,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:240865-247584,Checksum=4664523becbbdd8af53c08d3b15d41a5,RefRange=chr2:362983-369707,RefChecksum=970e18d8b17c02507a7da8849e5f86dc>
+##ALT=<ID=46f94a15466804cfb94557464c4871e2,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:223272-225981,Checksum=46f94a15466804cfb94557464c4871e2,RefRange=chr1:221642-224351,RefChecksum=79056aab2e296acc69377ba3e4a46034>
+##ALT=<ID=47bba9282a9911716de586b28c959064,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:361688-363385,Checksum=47bba9282a9911716de586b28c959064,RefRange=chr2:497861-500000,RefChecksum=171b492f0b5a00ee7ba24d9fc7670cae>
+##ALT=<ID=4839122210e77b54c03a689e5d5dc103,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:137716-139083,Checksum=4839122210e77b54c03a689e5d5dc103,RefRange=chr2:266559-267926,RefChecksum=e85b22bace302934e72a61d5a0f8bf6b>
+##ALT=<ID=4915a1dd34f367f04eb0ad9a3d456217,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:188309-190595,Checksum=4915a1dd34f367f04eb0ad9a3d456217,RefRange=chr1:182750-185032,RefChecksum=304742b53e60176a5238ec9ed0f8ff81>
+##ALT=<ID=4957c1afbf14407fc01471125c8aeb07,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:42667-43738,Checksum=4957c1afbf14407fc01471125c8aeb07,RefRange=chr2:121981-123022,RefChecksum=9bb16fa2088a3e12eb9512f0d47a3a76>
+##ALT=<ID=499b56e8a2e5242cc2ea140854d11f81,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:199237-201210,Checksum=499b56e8a2e5242cc2ea140854d11f81,RefRange=chr1:193671-195644,RefChecksum=499b56e8a2e5242cc2ea140854d11f81>
+##ALT=<ID=4a569783b4c8815d40c63cfb8edc42e7,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:178497-181253,Checksum=4a569783b4c8815d40c63cfb8edc42e7,RefRange=chr1:172949-175705,RefChecksum=a57cf4e7e7c963991b72d0b40e0f8325>
+##ALT=<ID=4a9468f835b3fe229ac60211e16c7fbd,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:303341-306636,Checksum=4a9468f835b3fe229ac60211e16c7fbd,RefRange=chr2:428901-432194,RefChecksum=c6e85f7672a4d3ff185cc59f4fc7bdfa>
+##ALT=<ID=4adccfe743010bc9130e24a46dc901bd,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:47234-51172,Checksum=4adccfe743010bc9130e24a46dc901bd,RefRange=chr1:41018-44969,RefChecksum=f46cebaaf75a59286737bee5f955f7d5>
+##ALT=<ID=4b1338aae852a5d0bbcdc944b17a6528,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:118231-118765,Checksum=4b1338aae852a5d0bbcdc944b17a6528,RefRange=chr1:118846-119380,RefChecksum=4b1338aae852a5d0bbcdc944b17a6528>
+##ALT=<ID=4ba405301fbd6fba4cd3fabf5b540b62,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:179070-180451,Checksum=4ba405301fbd6fba4cd3fabf5b540b62,RefRange=chr2:315648-317029,RefChecksum=4ba405301fbd6fba4cd3fabf5b540b62>
+##ALT=<ID=4bac7fce2c769c70635559ea4f5db84b,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:207883-210714,Checksum=4bac7fce2c769c70635559ea4f5db84b,RefRange=chr1:202103-204934,RefChecksum=ee919a94f1b6d27bedc2a7962c466d78>
+##ALT=<ID=4cd5719edd7d2549805d6febf8fbd12f,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:107309-109799,Checksum=4cd5719edd7d2549805d6febf8fbd12f,RefRange=chr1:101988-104439,RefChecksum=ce11d1afde9d2112f2ad368f988a9f17>
+##ALT=<ID=4d579cca69ba9016e3e55b98545188ae,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:134481-137285,Checksum=4d579cca69ba9016e3e55b98545188ae,RefRange=chr2:268714-272676,RefChecksum=e04afa5ff801b5af995ee092a9719db9>
+##ALT=<ID=4eaa517679e9e1b959620143c8c37f90,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:72588-81284,Checksum=4eaa517679e9e1b959620143c8c37f90,RefRange=chr2:205775-214473,RefChecksum=99f6885bb218efa372e23081bc664654>
+##ALT=<ID=4f2c7276f951c8677d3a8641a7c55c31,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:90547-94520,Checksum=4f2c7276f951c8677d3a8641a7c55c31,RefRange=chr2:228577-232540,RefChecksum=26a6d70f43a5604b3edc976c14c9046a>
+##ALT=<ID=4f8556049148a2f79e52916c8f4f3462,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:363709-364907,Checksum=4f8556049148a2f79e52916c8f4f3462,RefRange=chr1:357906-359116,RefChecksum=bf2fdc4dcac81f769d60b6ed3ba7a963>
+##ALT=<ID=4f8711b8b14e32f662a09246dc23eaf2,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:1654-3948,Checksum=4f8711b8b14e32f662a09246dc23eaf2,RefRange=chr1:3631-5899,RefChecksum=5548d9f54eb6fd9c7bf8dbbafe91e8e3>
+##ALT=<ID=5231f4eb04626869fa8bf4ec96530dc0,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:301554-303340,Checksum=5231f4eb04626869fa8bf4ec96530dc0,RefRange=chr2:427114-428900,RefChecksum=ea8ae5c561f58cb9882e9b08a044d22b>
+##ALT=<ID=528092fbb6bf71d6924ccc87c990a4a2,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:409981-412041,Checksum=528092fbb6bf71d6924ccc87c990a4a2,RefRange=chr1:408620-410680,RefChecksum=55c88909fc02c79e317f483ac388077a>
+##ALT=<ID=535c19344064e1e34275a5e76c42cd06,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:248896-251281,Checksum=535c19344064e1e34275a5e76c42cd06,RefRange=chr1:246055-248440,RefChecksum=20d0b391ba809e98aa9bb429591655fe>
+##ALT=<ID=54290d8c9c63e5c8f435c9f765495987,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:107920-108938,Checksum=54290d8c9c63e5c8f435c9f765495987,RefRange=chr2:239669-240687,RefChecksum=3ccd67c0f7814f200d7114d7bb79bc0d>
+##ALT=<ID=54cd59964a68d4f8c234306da96c97cb,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:230138-231449,Checksum=54cd59964a68d4f8c234306da96c97cb,RefRange=chr1:224352-225664,RefChecksum=dded88348153e443c7c2d023f553a283>
+##ALT=<ID=56c46a7a81989e875c4786a5198f1049,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:47465-48068,Checksum=56c46a7a81989e875c4786a5198f1049,RefRange=chr1:49305-49908,RefChecksum=56c46a7a81989e875c4786a5198f1049>
+##ALT=<ID=5742b7848e3a770e95730bd487cdeed9,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:1-1327,Checksum=5742b7848e3a770e95730bd487cdeed9,RefRange=chr2:68337-69884,RefChecksum=b1c3079a3ce4fa8936ed82991b01e1ce>
+##ALT=<ID=57fdd8d0249fdbf9196ebb57de17c209,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:66200-68336,Checksum=57fdd8d0249fdbf9196ebb57de17c209,RefRange=chr1:67775-69910,RefChecksum=07ee7a5848d76fb0857b275f84f69017>
+##ALT=<ID=58e94e2e8bfb0cc868f8afbde5b1a8c7,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:368934-370955,Checksum=58e94e2e8bfb0cc868f8afbde5b1a8c7,RefRange=chr1:363143-365164,RefChecksum=443efea1ab4a3262d04ad4a5cd9d7717>
+##ALT=<ID=59c10e6f90f5b7db3186dd061437c7a3,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:171055-172125,Checksum=59c10e6f90f5b7db3186dd061437c7a3,RefRange=chr1:165518-166588,RefChecksum=f060f094495a96990e6bbd7e039409d9>
+##ALT=<ID=5ae3eba6d12a06417b5dbb3035dbf080,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:235431-238804,Checksum=5ae3eba6d12a06417b5dbb3035dbf080,RefRange=chr2:357353-360924,RefChecksum=ec5fa80aefb4c884805bd2cc0dc93a8a>
+##ALT=<ID=5b1905956ab330478b68c3eb8c73fe64,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:90528-92916,Checksum=5b1905956ab330478b68c3eb8c73fe64,RefRange=chr2:223810-226234,RefChecksum=c12f69475c30b01f518977b632df8119>
+##ALT=<ID=5b6c5f337a496c3e6e73e0648f0a6c4a,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:350973-353764,Checksum=5b6c5f337a496c3e6e73e0648f0a6c4a,RefRange=chr2:487398-489941,RefChecksum=80fbf967d300f3926ee9828cba8741f8>
+##ALT=<ID=5b8ecd81b5638cd9c1949395b9f6bef6,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:4833-7195,Checksum=5b8ecd81b5638cd9c1949395b9f6bef6,RefRange=chr1:6788-9130,RefChecksum=3bf90363699707ba63c55951f30ec5aa>
+##ALT=<ID=5be2ca12b0e29f293b800a9ab139eb97,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:391170-394179,Checksum=5be2ca12b0e29f293b800a9ab139eb97,RefRange=chr1:389812-392816,RefChecksum=93d50392f022e662d4f1da22e1e62da5>
+##ALT=<ID=5c39e2d865174cfa0ba7258f35caf5bb,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:325237-330889,Checksum=5c39e2d865174cfa0ba7258f35caf5bb,RefRange=chr1:319668-325315,RefChecksum=722e913f9ecc3961e6b186ead8148f69>
+##ALT=<ID=5e50b70e84ca929319f64618deeec800,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:31333-36032,Checksum=5e50b70e84ca929319f64618deeec800,RefRange=chr1:33172-37871,RefChecksum=8e3c7c1a296f9e66ab9107d9a8e255b9>
+##ALT=<ID=5f459f5a41727271a947f0e447e258bc,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:184123-191660,Checksum=5f459f5a41727271a947f0e447e258bc,RefRange=chr2:306251-313805,RefChecksum=add10d33b5149926372ab99573c2f2ab>
+##ALT=<ID=5f52ea5725eb3c641fb2c6657cb101d4,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:115965-118170,Checksum=5f52ea5725eb3c641fb2c6657cb101d4,RefRange=chr1:114202-116407,RefChecksum=dcc41e1a25982325a02cb4b926e6d3c1>
+##ALT=<ID=601b6150858bd79543a4a7a2718f7e28,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:121051-123364,Checksum=601b6150858bd79543a4a7a2718f7e28,RefRange=chr2:255247-257568,RefChecksum=3580df37c0b30f9eb1791fba07323a09>
+##ALT=<ID=616fbfe3fb4257dd28b93da7d950b152,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:219418-220576,Checksum=616fbfe3fb4257dd28b93da7d950b152,RefRange=chr2:341322-342480,RefChecksum=a99edc5e4476c979e9c6570aa11ac073>
+##ALT=<ID=61b0d88c61f9a081c9ef418924ec5912,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:48280-50151,Checksum=61b0d88c61f9a081c9ef418924ec5912,RefRange=chr2:183765-187607,RefChecksum=0175409f6b05a189a2aafed004c8beff>
+##ALT=<ID=6304a2ff7c15f5e64ffbeef6c9bd6502,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:351090-353186,Checksum=6304a2ff7c15f5e64ffbeef6c9bd6502,RefRange=chr1:345516-347612,RefChecksum=6304a2ff7c15f5e64ffbeef6c9bd6502>
+##ALT=<ID=6414aee21330bf979b782c093856730f,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:368301-371416,Checksum=6414aee21330bf979b782c093856730f,RefRange=chr2:494745-497860,RefChecksum=86610de2b529f8d72587f98b5412e25b>
+##ALT=<ID=64219b661c61cd7d9102720b7744a584,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:315089-315715,Checksum=64219b661c61cd7d9102720b7744a584,RefRange=chr1:309542-310168,RefChecksum=64219b661c61cd7d9102720b7744a584>
+##ALT=<ID=65033a6617d14a626753041424cbcdcb,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:145227-147415,Checksum=65033a6617d14a626753041424cbcdcb,RefRange=chr1:139681-141869,RefChecksum=65033a6617d14a626753041424cbcdcb>
+##ALT=<ID=65af8bc4fcf1fdc546dcbefe207c59ed,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:210715-213423,Checksum=65af8bc4fcf1fdc546dcbefe207c59ed,RefRange=chr1:204935-207642,RefChecksum=c1e8c121333b3a59c3735935ec10c429>
+##ALT=<ID=67e43739437c77370d03267e4a8910fe,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:118525-119814,Checksum=67e43739437c77370d03267e4a8910fe,RefRange=chr2:250245-251806,RefChecksum=cb6aea1ab1de2a5bca8214542f4e84ee>
+##ALT=<ID=67f28b059090842246b26f6b9db70276,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:50113-52920,Checksum=67f28b059090842246b26f6b9db70276,RefRange=chr1:51953-54737,RefChecksum=9d52393130109d3ab281aced7709bc92>
+##ALT=<ID=67f855d516a734902a4b22c3672e7c63,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:125678-136097,Checksum=67f855d516a734902a4b22c3672e7c63,RefRange=chr1:120154-130577,RefChecksum=92422f2fe785b69f2d551336b1ea768a>
+##ALT=<ID=683df03fbd5abf02d9289cc74c2b2d01,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:478507-480745,Checksum=683df03fbd5abf02d9289cc74c2b2d01,RefRange=chr1:474373-476612,RefChecksum=c4a4c45bbadf66114c417d9e5c1214bd>
+##ALT=<ID=68af3d0ddb68fe50847513408bb8fa4e,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:1328-1415,Checksum=68af3d0ddb68fe50847513408bb8fa4e,RefRange=chr2:69885-73207,RefChecksum=6c711c55199b617b5bdf795377b01e78>
+##ALT=<ID=695ce7e9a1d987d35b8231fc6ee30a6a,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:334824-339410,Checksum=695ce7e9a1d987d35b8231fc6ee30a6a,RefRange=chr2:450379-454959,RefChecksum=762d732aebd6e2bdd5fb2c3d8f8c2156>
+##ALT=<ID=6a069f6501a0b645beefe37cbe284d5d,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:155092-157207,Checksum=6a069f6501a0b645beefe37cbe284d5d,RefRange=chr2:290573-292688,RefChecksum=5835581decdb0865c9c7077ef0e05b4e>
+##ALT=<ID=6a1c37f9d3d875b1de34b23c34ffe5a5,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:220464-223271,Checksum=6a1c37f9d3d875b1de34b23c34ffe5a5,RefRange=chr1:218834-221641,RefChecksum=b0fd72637d35e54cef31466a04c9339e>
+##ALT=<ID=6ae2725201cb6ffad2d008bff3b4241d,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:435951-440176,Checksum=6ae2725201cb6ffad2d008bff3b4241d,RefRange=chr1:430721-434964,RefChecksum=fa78f77044b99916ee263258239e3b2c>
+##ALT=<ID=6b721fd32cc784d39d3fa23ab6c32cd1,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:77661-80092,Checksum=6b721fd32cc784d39d3fa23ab6c32cd1,RefRange=chr1:72339-74737,RefChecksum=0246d5c7afd34a2bb8238afe2ada8611>
+##ALT=<ID=6c4d8306c7706bf4f48609ec00f9a521,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:257532-262303,Checksum=6c4d8306c7706bf4f48609ec00f9a521,RefRange=chr1:254531-259306,RefChecksum=277a87142ddc0399e16c29656d568d74>
+##ALT=<ID=6d2c2a65e57433303b8fbc2d60fd2ed4,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:118171-120608,Checksum=6d2c2a65e57433303b8fbc2d60fd2ed4,RefRange=chr1:116408-118845,RefChecksum=910f064bcbd918575b56a1d47688f976>
+##ALT=<ID=6d2dd96186f0d81971100003c681ce1b,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:307857-309080,Checksum=6d2dd96186f0d81971100003c681ce1b,RefRange=chr1:302311-303536,RefChecksum=900dac53f31cf3a6a840deb4e3518c91>
+##ALT=<ID=6d54ede54763afccff7e6b39b3780e41,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:242308-244632,Checksum=6d54ede54763afccff7e6b39b3780e41,RefRange=chr2:385171-387478,RefChecksum=518f38e510578baee9e4849f8e30959d>
+##ALT=<ID=6dd2e90fdcbd5810af7b531ceb4460f0,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:216948-219197,Checksum=6dd2e90fdcbd5810af7b531ceb4460f0,RefRange=chr2:353344-355594,RefChecksum=b511b488dc6b535fa019597877d803a6>
+##ALT=<ID=6ed8561cf96daf9e9bcfa4924d678380,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:48069-49370,Checksum=6ed8561cf96daf9e9bcfa4924d678380,RefRange=chr1:49909-51210,RefChecksum=b01c2f63a2722fe0c1b807f95c5c4b2f>
+##ALT=<ID=6f546a22e58eaa66fd841d741bc3f131,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:272037-274594,Checksum=6f546a22e58eaa66fd841d741bc3f131,RefRange=chr2:394185-396755,RefChecksum=6764de2f82f29724d846f7b5fb581d5d>
+##ALT=<ID=710b5306e6acc726a8070ce5a46f70a2,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:149033-152023,Checksum=710b5306e6acc726a8070ce5a46f70a2,RefRange=chr1:143489-146479,RefChecksum=e244b5f3c264b0502c7635ec9d73438d>
+##ALT=<ID=71c9662a83afdc0761cebc6a4626e1a8,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:287550-289302,Checksum=71c9662a83afdc0761cebc6a4626e1a8,RefRange=chr2:424060-425810,RefChecksum=b129f13cbb3536deb601ff7096a5e607>
+##ALT=<ID=727cd62d4392e9074f944309b397a76d,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:49371-50112,Checksum=727cd62d4392e9074f944309b397a76d,RefRange=chr1:51211-51952,RefChecksum=685c1af79ead17c1d304bf30babc6cf0>
+##ALT=<ID=74219b68e4e0300c43280066b475ae11,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:44660-47233,Checksum=74219b68e4e0300c43280066b475ae11,RefRange=chr1:38444-41017,RefChecksum=510350bfb6f4d8364bf1d204ab5b25dd>
+##ALT=<ID=747087e175e81d3417448d3fc3a68f1f,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:374692-388272,Checksum=747087e175e81d3417448d3fc3a68f1f,RefRange=chr1:373335-386913,RefChecksum=05e5f18f522d9d77a3d11c57faed59d5>
+##ALT=<ID=75a08cecc22365b5e39c0f4c480c36e8,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:482961-484497,Checksum=75a08cecc22365b5e39c0f4c480c36e8,RefRange=chr1:479113-480649,RefChecksum=5f6822ec689745afb74631c70b0d3185>
+##ALT=<ID=76bbbf868b3604fc1acc7403b7fca55f,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:194885-198287,Checksum=76bbbf868b3604fc1acc7403b7fca55f,RefRange=chr2:317030-320432,RefChecksum=a7a53648ac7abbd31e6ea82baec57c52>
+##ALT=<ID=77de726268c74027f761796b8f0a1317,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:45214-47464,Checksum=77de726268c74027f761796b8f0a1317,RefRange=chr1:47060-49304,RefChecksum=2c9aaee894e0bcba815874eb9e17d974>
+##ALT=<ID=7b74216e261e0f45bfaff4ad48bcb7cf,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:347615-348491,Checksum=7b74216e261e0f45bfaff4ad48bcb7cf,RefRange=chr1:342041-342917,RefChecksum=7b74216e261e0f45bfaff4ad48bcb7cf>
+##ALT=<ID=7c7946f55540b48e30cba098e2e76903,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:113157-114509,Checksum=7c7946f55540b48e30cba098e2e76903,RefRange=chr2:240688-242040,RefChecksum=89113a7bba454039b1c8498df4bebb6f>
+##ALT=<ID=7ca41ed1df8c1365b47b96e730124a04,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:7196-9713,Checksum=7ca41ed1df8c1365b47b96e730124a04,RefRange=chr1:9131-11648,RefChecksum=5a84770d937c11224cb7c8e28ec91029>
+##ALT=<ID=7f6a058b14129400ea28dbaf80284a57,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:430216-432289,Checksum=7f6a058b14129400ea28dbaf80284a57,RefRange=chr1:428650-430720,RefChecksum=6068663a77451f7be83fadab57e1484b>
+##ALT=<ID=7fa0ee68618c5373041e0bf78abb17a9,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:497714-500000,Checksum=7fa0ee68618c5373041e0bf78abb17a9,RefRange=chr1:493639-496332,RefChecksum=6ade92ae640d9e300b06de70de891aa3>
+##ALT=<ID=7fb865bf3b92a07b04e4fde4d589cb4b,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:3383-7074,Checksum=7fb865bf3b92a07b04e4fde4d589cb4b,RefRange=chr2:96864-100483,RefChecksum=eddc806ccbc623d7fc12930ed2a92a70>
+##ALT=<ID=7fee14bb10b164972e00d9fa0af6a9e0,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:370956-373234,Checksum=7fee14bb10b164972e00d9fa0af6a9e0,RefRange=chr1:365165-367443,RefChecksum=7fee14bb10b164972e00d9fa0af6a9e0>
+##ALT=<ID=80131ffffce835aa3b35475c38f87d38,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:406253-410255,Checksum=80131ffffce835aa3b35475c38f87d38,RefRange=chr1:404600-408619,RefChecksum=8cd4671f9279b9ed95b98ee95984d40e>
+##ALT=<ID=8067ba1f6466a0eb21cf82374f2e414f,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:487493-490894,Checksum=8067ba1f6466a0eb21cf82374f2e414f,RefRange=chr1:483374-486799,RefChecksum=e7c7d3234b77d44a70e45b65bb586ba3>
+##ALT=<ID=80fa1014f33316ba619f0035a667119d,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:139084-139879,Checksum=80fa1014f33316ba619f0035a667119d,RefRange=chr2:267927-268713,RefChecksum=81547b95723c5fee9d5c690ce7000c7d>
+##ALT=<ID=820f069d1303c1eccd61fda56bf8b39d,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:90753-95070,Checksum=820f069d1303c1eccd61fda56bf8b39d,RefRange=chr1:91342-95681,RefChecksum=08ab29d06829d336defa3f3c69a1a00e>
+##ALT=<ID=82321432638e1295d71133ba24938f90,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:143709-145226,Checksum=82321432638e1295d71133ba24938f90,RefRange=chr1:138163-139680,RefChecksum=82321432638e1295d71133ba24938f90>
+##ALT=<ID=8262c78ff23ac12bb97d752d8d4bde2d,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:151010-155091,Checksum=8262c78ff23ac12bb97d752d8d4bde2d,RefRange=chr2:286530-290572,RefChecksum=641e66ab085390f4dee7a14db8f5f799>
+##ALT=<ID=827e2a0fc0a58177716e48b05672e91e,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:347404-350972,Checksum=827e2a0fc0a58177716e48b05672e91e,RefRange=chr2:483830-487397,RefChecksum=218d9f55da0e74538be6705e14a1e9fa>
+##ALT=<ID=8357b345f7f52afd27f241e20b382ba0,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:95071-96800,Checksum=8357b345f7f52afd27f241e20b382ba0,RefRange=chr1:95682-97411,RefChecksum=f6d51df2e318fc6b62392f6075f505ec>
+##ALT=<ID=83da13a56a19341ed7363c12cc022d67,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:412042-413024,Checksum=83da13a56a19341ed7363c12cc022d67,RefRange=chr1:410681-411663,RefChecksum=83da13a56a19341ed7363c12cc022d67>
+##ALT=<ID=85b4f888f73fec0840caf868d8ad626e,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:105186-107308,Checksum=85b4f888f73fec0840caf868d8ad626e,RefRange=chr1:99865-101987,RefChecksum=9f05f833336bce281b6398ca318e7df1>
+##ALT=<ID=866cf25e474bab5019b8487445600e46,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:476017-477470,Checksum=866cf25e474bab5019b8487445600e46,RefRange=chr1:471883-473336,RefChecksum=abe5457523bdff1f1f85c0f51eec74d4>
+##ALT=<ID=86e97ee288bf9f8c1a969a957819196b,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:300427-305042,Checksum=86e97ee288bf9f8c1a969a957819196b,RefRange=chr2:416001-420661,RefChecksum=566d8a030fb1a3da21155d2051144f74>
+##ALT=<ID=873483b0610f7e61e159a12401c73c47,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:345412-347447,Checksum=873483b0610f7e61e159a12401c73c47,RefRange=chr2:472071-474107,RefChecksum=311d322778cab61132c27658c5810c63>
+##ALT=<ID=873a0c5e96feb58ff210e9ea64689440,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:452515-454552,Checksum=873a0c5e96feb58ff210e9ea64689440,RefRange=chr1:448423-450460,RefChecksum=4cec3024a41b17dbf53fcc6231a321eb>
+##ALT=<ID=87ab376fad1123e5070e65eede0e1724,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:176920-178496,Checksum=87ab376fad1123e5070e65eede0e1724,RefRange=chr1:171387-172948,RefChecksum=46954c6d2d4165b836d94f9b7e82c9c0>
+##ALT=<ID=89eeb9501460686bb7dd49d373d6d0a3,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:295360-296265,Checksum=89eeb9501460686bb7dd49d373d6d0a3,RefRange=chr1:295087-296000,RefChecksum=760e4fc0838e55bf11bd467e1c496fe1>
+##ALT=<ID=8a1558f9879762eafa69092eaa9f731e,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:159911-162010,Checksum=8a1558f9879762eafa69092eaa9f731e,RefRange=chr1:154367-156476,RefChecksum=dcb6395963174d4d90ebd0460a205ed6>
+##ALT=<ID=8a17eef38a278801af596566987da036,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:469707-471995,Checksum=8a17eef38a278801af596566987da036,RefRange=chr1:465616-467880,RefChecksum=b22c3624f4178efe65b92fa1928c076e>
+##ALT=<ID=8bef0879e3b55531bf99b7c140f56dd3,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:293519-295359,Checksum=8bef0879e3b55531bf99b7c140f56dd3,RefRange=chr1:293246-295086,RefChecksum=986393c4daae46dcfe2ea822f3c503b5>
+##ALT=<ID=8cf501bdc4cf841dcc361f99c9c2966c,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:92917-95259,Checksum=8cf501bdc4cf841dcc361f99c9c2966c,RefRange=chr2:226235-228576,RefChecksum=e349b166bd56d877c0f26588c48725cb>
+##ALT=<ID=8d23c87885799c2207298d714f05662b,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:347666-349250,Checksum=8d23c87885799c2207298d714f05662b,RefRange=chr2:463409-464993,RefChecksum=6979b261cf844de1ecfd429ccf32a7cb>
+##ALT=<ID=8de95544ced69ca53fec7730c17557e3,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:22518-23802,Checksum=8de95544ced69ca53fec7730c17557e3,RefRange=chr2:50288-51487,RefChecksum=a0612bfd32db5fad60ef38818efe8185>
+##ALT=<ID=8e76d623e226c3e0cfb609691aa8d097,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:158657-159910,Checksum=8e76d623e226c3e0cfb609691aa8d097,RefRange=chr1:153113-154366,RefChecksum=8e76d623e226c3e0cfb609691aa8d097>
+##ALT=<ID=91369e9dfdec67f9e5952303c76f8ae1,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:366709-368933,Checksum=91369e9dfdec67f9e5952303c76f8ae1,RefRange=chr1:360918-363142,RefChecksum=91369e9dfdec67f9e5952303c76f8ae1>
+##ALT=<ID=93c52c873ffc9e8d43d2dc5e66cb3306,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:155393-156232,Checksum=93c52c873ffc9e8d43d2dc5e66cb3306,RefRange=chr1:149849-150688,RefChecksum=834ecccab3f8a05feec2eb93d07e41fc>
+##ALT=<ID=93e909bc72cd3c90c3c4ce926833fe35,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:330890-343486,Checksum=93e909bc72cd3c90c3c4ce926833fe35,RefRange=chr1:325316-337912,RefChecksum=c822e50292e2077176914950befbf278>
+##ALT=<ID=94742f7cc4c4aebe6fb964253772f4fb,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:108338-111092,Checksum=94742f7cc4c4aebe6fb964253772f4fb,RefRange=chr1:108946-111699,RefChecksum=08ffeb675ee6510ee5b35fab1f4b6f7f>
+##ALT=<ID=94fc6b293f10d9dcce20216c605d2266,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:339411-341415,Checksum=94fc6b293f10d9dcce20216c605d2266,RefRange=chr2:454960-457001,RefChecksum=31923ae794e6b016fd91c7d9a605a275>
+##ALT=<ID=9530a22bf5e3b2a6a88008eeb52d62a0,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:443636-444275,Checksum=9530a22bf5e3b2a6a88008eeb52d62a0,RefRange=chr1:439560-440199,RefChecksum=a75cff4ec99fff549dc48eae94bcd987>
+##ALT=<ID=96950db227dbac378498b1e047aa116d,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:245209-247559,Checksum=96950db227dbac378498b1e047aa116d,RefRange=chr2:388055-390405,RefChecksum=cfe0f1b1287557e19b522cf8fe8bace4>
+##ALT=<ID=98b09154b3bbee2adb138ba6343cdfcd,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:147000-148107,Checksum=98b09154b3bbee2adb138ba6343cdfcd,RefRange=chr2:273895-275002,RefChecksum=cae3f69f93d4a47b11316f2c0a09350c>
+##ALT=<ID=991265d58b112e600dc95957ee48fa99,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:168095-169931,Checksum=991265d58b112e600dc95957ee48fa99,RefRange=chr2:296365-298215,RefChecksum=1c8af46e93fd099c8cace82cd4ed6a3f>
+##ALT=<ID=9c6718e410fa378dcaa7810f196763d1,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:363158-365457,Checksum=9c6718e410fa378dcaa7810f196763d1,RefRange=chr2:478977-481185,RefChecksum=957f7d2db444a43f679c9ac98a099bab>
+##ALT=<ID=9c8aecd9e07aee31b94a25ea54d36faf,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:151229-155238,Checksum=9c8aecd9e07aee31b94a25ea54d36faf,RefRange=chr2:278124-282123,RefChecksum=3c5b59ca629f81a3696ce222c8747e89>
+##ALT=<ID=9d97fc465d500f5611e3743bfcd52c6b,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:62570-66199,Checksum=9d97fc465d500f5611e3743bfcd52c6b,RefRange=chr1:64166-67774,RefChecksum=eeef9524d0f9d2b0d2958d03e9529127>
+##ALT=<ID=9ed491a9cd6e0844f6f06fa6ab5ccec4,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:52863-55592,Checksum=9ed491a9cd6e0844f6f06fa6ab5ccec4,RefRange=chr2:190370-193163,RefChecksum=6e6c3b5330a458e6b983895620f7756b>
+##ALT=<ID=9fec3cfcb2daa9b48a3c30dda2d2df41,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:261986-264850,Checksum=9fec3cfcb2daa9b48a3c30dda2d2df41,RefRange=chr2:396756-399338,RefChecksum=b0e7cbe1e1b46ac7d969779427b61fca>
+##ALT=<ID=a13dd2b6610e18c4bff1ca1e06a18d34,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:355411-355869,Checksum=a13dd2b6610e18c4bff1ca1e06a18d34,RefRange=chr2:481831-482334,RefChecksum=823fbfb16d388a130cea78116a610b55>
+##ALT=<ID=a177ffd37088016b57f15360a91c9c53,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:63536-69938,Checksum=a177ffd37088016b57f15360a91c9c53,RefRange=chr2:199281-203126,RefChecksum=fe613dd5a69c6a32f72bf393d6ed4d57>
+##ALT=<ID=a2ed552659791cf8735752e171cf6dd7,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:60142-62795,Checksum=a2ed552659791cf8735752e171cf6dd7,RefRange=chr1:59216-61904,RefChecksum=3f29f1fdeb05fb59389c72cb9c25c5ea>
+##ALT=<ID=a47eee68b8fead285a6d10d4200fc802,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:493701-494911,Checksum=a47eee68b8fead285a6d10d4200fc802,RefRange=chr1:489652-490859,RefChecksum=b7150a2228dccbf6b094be2c444a8e91>
+##ALT=<ID=a60ff968468707d1124afbde32a58104,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:1415-6126,Checksum=a60ff968468707d1124afbde32a58104,RefRange=chr2:79779-85400,RefChecksum=3aa278eaaf5abf90e193fac6b5d2abf2>
+##ALT=<ID=a67ab2595e9a57cb4b464bb26598ad13,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:345663-347614,Checksum=a67ab2595e9a57cb4b464bb26598ad13,RefRange=chr1:340089-342040,RefChecksum=4ba7bbc8091a1823c1cd64b60808f891>
+##ALT=<ID=a68db854749631a9bcd8870b3481fa8b,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:181254-183956,Checksum=a68db854749631a9bcd8870b3481fa8b,RefRange=chr1:175706-178406,RefChecksum=ae13f035fc07c561cb9c0d5b91ad066b>
+##ALT=<ID=a952ea95b0b2c4cca916ffcd7c776741,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:164358-165161,Checksum=a952ea95b0b2c4cca916ffcd7c776741,RefRange=chr1:158824-159627,RefChecksum=a952ea95b0b2c4cca916ffcd7c776741>
+##ALT=<ID=a9fdd5be0ed1310b7f2e80e676cd7267,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:156233-157754,Checksum=a9fdd5be0ed1310b7f2e80e676cd7267,RefRange=chr1:150689-152210,RefChecksum=a9fdd5be0ed1310b7f2e80e676cd7267>
+##ALT=<ID=aa32553fcf4cf89a0165a5fe0c73695d,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:81285-83435,Checksum=aa32553fcf4cf89a0165a5fe0c73695d,RefRange=chr2:214474-216604,RefChecksum=b71254cf6d75aa6f7756aae62eddfb27>
+##ALT=<ID=aa3aa554830394efc4979a5234df39a5,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:394180-397051,Checksum=aa3aa554830394efc4979a5234df39a5,RefRange=chr1:392817-395688,RefChecksum=a0e4cd14a1de3613b9a901ebfe04b58b>
+##ALT=<ID=aa972c1eae21af9d07772426ffbc98ad,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:429390-430485,Checksum=aa972c1eae21af9d07772426ffbc98ad,RefRange=chr1:427548-428649,RefChecksum=0edad95af589ac6604933cbfe1784386>
+##ALT=<ID=accf6b2b5934b2fc1f3759369f02e27f,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:198003-199236,Checksum=accf6b2b5934b2fc1f3759369f02e27f,RefRange=chr1:192437-193670,RefChecksum=accf6b2b5934b2fc1f3759369f02e27f>
+##ALT=<ID=aff79b3bdd9331fdf19010d9b93ed93b,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:403283-404462,Checksum=aff79b3bdd9331fdf19010d9b93ed93b,RefRange=chr1:401920-403099,RefChecksum=59d229df84c5e2837151653bafbcbc07>
+##ALT=<ID=b1634c3b973ce16c9c8f7ee942be64e3,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:146615-147318,Checksum=b1634c3b973ce16c9c8f7ee942be64e3,RefRange=chr2:282124-282829,RefChecksum=84bd2c3503080a046c33f3a60b73b837>
+##ALT=<ID=b1ceba7b5fb9dbfc0d3a8174c0b2113d,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:268395-270062,Checksum=b1ceba7b5fb9dbfc0d3a8174c0b2113d,RefRange=chr1:266325-267992,RefChecksum=b1ceba7b5fb9dbfc0d3a8174c0b2113d>
+##ALT=<ID=b26da9a6d103877e2288caa731e3e83f,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:82438-84379,Checksum=b26da9a6d103877e2288caa731e3e83f,RefRange=chr1:82984-84946,RefChecksum=07058c59965d266c6b538e71e8e734a1>
+##ALT=<ID=b3ad41ace8140d86e566a76716b95eab,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:444276-447182,Checksum=b3ad41ace8140d86e566a76716b95eab,RefRange=chr1:440200-443117,RefChecksum=1e4809fcbb34cd701fefebc61d4b7e52>
+##ALT=<ID=b48b3b41dbcbd9ea97976c2dff90ab03,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:312013-315088,Checksum=b48b3b41dbcbd9ea97976c2dff90ab03,RefRange=chr1:306467-309541,RefChecksum=d2fb3d51024bd37d38feb1843078fca6>
+##ALT=<ID=b7561ce6a4d984e20b8461cc5732cb6b,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:309081-312012,Checksum=b7561ce6a4d984e20b8461cc5732cb6b,RefRange=chr1:303537-306466,RefChecksum=ac09a9a4ccb1a8ab26b619e0a3cb29e6>
+##ALT=<ID=b815da7ed2c124639fb134acb2a58feb,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:404463-405962,Checksum=b815da7ed2c124639fb134acb2a58feb,RefRange=chr1:403100-404599,RefChecksum=f76141b20ea54514689d73ec71410a17>
+##ALT=<ID=b83a295055bae807a0a4a03a16847f73,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:132985-137105,Checksum=b83a295055bae807a0a4a03a16847f73,RefRange=chr2:265022-265948,RefChecksum=b2e1f65ca4553e689cde94ac84385e80>
+##ALT=<ID=bb05a4a5e4dd76bdf6686b54e4be0dd3,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:85919-87843,Checksum=bb05a4a5e4dd76bdf6686b54e4be0dd3,RefRange=chr1:86486-88409,RefChecksum=c77d639b22c15ef3e322731e1bd63383>
+##ALT=<ID=bb1cb310c4a2eb203ebe9858524af0df,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:282399-290490,Checksum=bb1cb310c4a2eb203ebe9858524af0df,RefRange=chr2:410321-416000,RefChecksum=44992087555e6ad94d29c69dfa9264dc>
+##ALT=<ID=bc6d35f6eb286b75f60c638d7c1ebd6b,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:148108-151228,Checksum=bc6d35f6eb286b75f60c638d7c1ebd6b,RefRange=chr2:275003-278123,RefChecksum=76172d23cc2fb891511732d5ef7777a1>
+##ALT=<ID=bcc33c75dd700520f107a407b18972a7,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:331604-337297,Checksum=bcc33c75dd700520f107a407b18972a7,RefRange=chr2:457002-463408,RefChecksum=f7efbca960c0aa97b9283cfbc08dc3b6>
+##ALT=<ID=bcfb947bb7d678f5568cd383eaabea3e,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:330346-332759,Checksum=bcfb947bb7d678f5568cd383eaabea3e,RefRange=chr2:466956-469369,RefChecksum=0d0ad30942741efdb74fa45ceec49de5>
+##ALT=<ID=bde4c5bafef8bb77f7959c1623dc51ae,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:137792-141470,Checksum=bde4c5bafef8bb77f7959c1623dc51ae,RefRange=chr1:132270-135924,RefChecksum=6806a63a154c8738f840c4855ab2159c>
+##ALT=<ID=be473f261c244920fd3eeecd31a7408e,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:441314-442130,Checksum=be473f261c244920fd3eeecd31a7408e,RefRange=chr1:436923-437859,RefChecksum=f470b40bb87a42a8e7d2f32c0d4fb1a7>
+##ALT=<ID=bea5b797f73bef652744e6adf8548d4a,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:210754-214798,Checksum=bea5b797f73bef652744e6adf8548d4a,RefRange=chr1:208995-213082,RefChecksum=9a3d4b97778771fe9fe98686f71bf731>
+##ALT=<ID=bec0507007b15aacdb3ef42fdc54ef6d,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:454553-457199,Checksum=bec0507007b15aacdb3ef42fdc54ef6d,RefRange=chr1:450461-453106,RefChecksum=6cc421e671f7ab3a116ddfe6d0d34975>
+##ALT=<ID=bf05212a2ae0decbfc012dd9d2f9bd0d,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:307952-314014,Checksum=bf05212a2ae0decbfc012dd9d2f9bd0d,RefRange=chr2:444325-450378,RefChecksum=46b1ddf74d84813b449ff1ac78e6fe3b>
+##ALT=<ID=c00ccd126afd1810dd510833c76cd622,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:117229-117788,Checksum=c00ccd126afd1810dd510833c76cd622,RefRange=chr1:111700-112262,RefChecksum=29ec55608d05ee430bc3d161b6690662>
+##ALT=<ID=c0a2909f923393df6689a308089e707f,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:166159-167571,Checksum=c0a2909f923393df6689a308089e707f,RefRange=chr1:164105-165517,RefChecksum=c0a2909f923393df6689a308089e707f>
+##ALT=<ID=c3425b7f9eca4dcef48f1ea8e162fd04,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:490895-493700,Checksum=c3425b7f9eca4dcef48f1ea8e162fd04,RefRange=chr1:486800-489651,RefChecksum=ea7f11203eb62b9f8c510b05a4fbffdf>
+##ALT=<ID=c4b5fc01ae0375643dc426d2748f68b3,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:371556-372450,Checksum=c4b5fc01ae0375643dc426d2748f68b3,RefRange=chr1:370195-371090,RefChecksum=42654475496fa35a06d040d3cf8bb0f9>
+##ALT=<ID=c5c3397e73642955be0e521c7e136078,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:242684-245553,Checksum=c5c3397e73642955be0e521c7e136078,RefRange=chr1:239841-242712,RefChecksum=515ff09054535b3340a518d326c381ab>
+##ALT=<ID=c5d3058083bc5b6d9090952b203f3c9a,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:137285-138436,Checksum=c5d3058083bc5b6d9090952b203f3c9a,RefRange=chr2:272677-273894,RefChecksum=54f5b6c46edd216f5c24e6a0f8183691>
+##ALT=<ID=c611999f9f434dc3cd98b91cef7d4f77,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:68337-70763,Checksum=c611999f9f434dc3cd98b91cef7d4f77,RefRange=chr1:69911-72338,RefChecksum=60f5bf39b809c0f51daff8a37100a16c>
+##ALT=<ID=c683ab35f2ad88735888a41c454519ba,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:238590-243624,Checksum=c683ab35f2ad88735888a41c454519ba,RefRange=chr1:232840-237905,RefChecksum=bfce18f803110b87879d1bf910bca87b>
+##ALT=<ID=c702b735cc4389050e09129cd17a15b5,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:286135-287549,Checksum=c702b735cc4389050e09129cd17a15b5,RefRange=chr2:422644-424059,RefChecksum=d236858f379dc5683b509e2c173a4918>
+##ALT=<ID=c731cdfdc5c8325b063ace9c2c901f4d,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:82215-88362,Checksum=c731cdfdc5c8325b063ace9c2c901f4d,RefRange=chr1:76846-82983,RefChecksum=acd16a0a2089398ff43832461fd37c18>
+##ALT=<ID=c73a4c3d194f98742b8765d2541ac983,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:285098-286134,Checksum=c73a4c3d194f98742b8765d2541ac983,RefRange=chr2:421608-422643,RefChecksum=7939093a50a2051dcf0d87a9a1e3ea80>
+##ALT=<ID=c80c7dfa25036bd4e16e9e604918b4ca,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:251282-251881,Checksum=c80c7dfa25036bd4e16e9e604918b4ca,RefRange=chr1:248441-249040,RefChecksum=5931f3bb641f36b158ba0465c6373140>
+##ALT=<ID=c87bf874a04544f417f2f15c717f9baf,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:38798-39369,Checksum=c87bf874a04544f417f2f15c717f9baf,RefRange=chr1:37872-38443,RefChecksum=c87bf874a04544f417f2f15c717f9baf>
+##ALT=<ID=c8e4153796d068f04112526310bac60a,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:423851-427986,Checksum=c8e4153796d068f04112526310bac60a,RefRange=chr1:418416-422579,RefChecksum=e5eaae1d81a409d8fcb26f3f9954a110>
+##ALT=<ID=c909029b49d7ce6d8fb9f8d54616b18e,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:238805-240864,Checksum=c909029b49d7ce6d8fb9f8d54616b18e,RefRange=chr2:360925-362982,RefChecksum=27d7fc1bfcd9085ec91a481277aa854d>
+##ALT=<ID=c922e387865dbe521cd4b2ada6c73fb6,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:459781-464930,Checksum=c922e387865dbe521cd4b2ada6c73fb6,RefRange=chr1:455688-460831,RefChecksum=191de152cb02d1b75f5cc7db3ae5a7c7>
+##ALT=<ID=c9cf1d2b59f7877c4e3cdf0654063324,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:114041-115964,Checksum=c9cf1d2b59f7877c4e3cdf0654063324,RefRange=chr1:112263-114201,RefChecksum=b8cc9a76585ecffb01c41908f636654e>
+##ALT=<ID=ccf1564e961bc11eb498ab3141fee4d4,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:171273-184122,Checksum=ccf1564e961bc11eb498ab3141fee4d4,RefRange=chr2:298216-306250,RefChecksum=331373a0e255be349822dd50f0820659>
+##ALT=<ID=cde26a3c923b0386eae51452d6e8ee41,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:465927-467716,Checksum=cde26a3c923b0386eae51452d6e8ee41,RefRange=chr1:461828-463618,RefChecksum=600a0a130e2856da973e2c1d13f6d150>
+##ALT=<ID=ce294b049095ae2c0adef6d3deec273c,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:14685-46931,Checksum=ce294b049095ae2c0adef6d3deec273c,RefRange=chr2:117969-121980,RefChecksum=98ff70afcbb9773cd4227183ab871354>
+##ALT=<ID=cf8509bd85b6a4b2879f5c0d8248763f,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:315716-325236,Checksum=cf8509bd85b6a4b2879f5c0d8248763f,RefRange=chr1:310169-319667,RefChecksum=474d9d3914b773f344b57c5b4db6f1c4>
+##ALT=<ID=cf9ca1e9cd02713fc44575b4834e98d7,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:486691-489415,Checksum=cf9ca1e9cd02713fc44575b4834e98d7,RefRange=chr1:480650-483373,RefChecksum=9d27f943c891c3708602903ff7070ea0>
+##ALT=<ID=d1c7e1e7bc01a1308b04a3caed87a655,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:137106-137715,Checksum=d1c7e1e7bc01a1308b04a3caed87a655,RefRange=chr2:265949-266558,RefChecksum=8023539fdb1c11d9d3a4d090b4981798>
+##ALT=<ID=d29ef223675a51d5d81cdbfc7d6aa924,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:269255-272036,Checksum=d29ef223675a51d5d81cdbfc7d6aa924,RefRange=chr2:391421-394184,RefChecksum=1baddbbb0f3ebfad86b9e3b53a7e6ed9>
+##ALT=<ID=d4a503c5039f322879676b8f9dbb938d,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:219806-222448,Checksum=d4a503c5039f322879676b8f9dbb938d,RefRange=chr2:347537-350179,RefChecksum=e80b75e8b751dda1c8b0f8355221a34e>
+##ALT=<ID=d8f238292ed4962daa9f78d99be88e9d,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:204568-205306,Checksum=d8f238292ed4962daa9f78d99be88e9d,RefRange=chr1:198788-199526,RefChecksum=d8f238292ed4962daa9f78d99be88e9d>
+##ALT=<ID=d93b00bb5d2d6ca4dd892d2fd7869292,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:397052-403282,Checksum=d93b00bb5d2d6ca4dd892d2fd7869292,RefRange=chr1:395689-401919,RefChecksum=c9cdc1a0bfaffedb8533aa866f3456de>
+##ALT=<ID=dc19474e3008e5442773dcb12f886529,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:328120-330345,Checksum=dc19474e3008e5442773dcb12f886529,RefRange=chr2:464994-466955,RefChecksum=aa9d07cd5e19e6de2db85baae2562545>
+##ALT=<ID=dcad8da5fe66f25e326ff18abc50821c,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:174092-176919,Checksum=dcad8da5fe66f25e326ff18abc50821c,RefRange=chr1:168559-171386,RefChecksum=9e13dcc754ad362347690358cf393d0e>
+##ALT=<ID=dcdc48fe969432a3be8821e2685b5cfc,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:152024-152586,Checksum=dcdc48fe969432a3be8821e2685b5cfc,RefRange=chr1:146480-147042,RefChecksum=362f906fbfd11019fe91ba12df9f8ea5>
+##ALT=<ID=de0e6673483202da830dbe11a41c3fb7,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:245554-248895,Checksum=de0e6673483202da830dbe11a41c3fb7,RefRange=chr1:242713-246054,RefChecksum=0a6ce617da71de9c73d6e29885406656>
+##ALT=<ID=dfcf28d0734569a6a693bc8194de62bf,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:23820-23820,Checksum=dfcf28d0734569a6a693bc8194de62bf,RefRange=chr2:53269-54468,RefChecksum=9095415978e1dfcb1820963dcf5528ed>
+##ALT=<ID=dfd96dfa6d0f34ac98ec69848c66bb12,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:213424-214762,Checksum=dfd96dfa6d0f34ac98ec69848c66bb12,RefRange=chr1:207643-208994,RefChecksum=ef5b9bf9ff1d688d64e76f3a13ef6411>
+##ALT=<ID=e2197cc98f6cf8d4bb50606165694f7e,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:55593-63535,Checksum=e2197cc98f6cf8d4bb50606165694f7e,RefRange=chr2:193164-199280,RefChecksum=27d1ef3879b89ad319cb8c2821bea664>
+##ALT=<ID=e2b285c588a88b22f5bf69836aefbf10,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:332760-335471,Checksum=e2b285c588a88b22f5bf69836aefbf10,RefRange=chr2:469370-472070,RefChecksum=6ab68630ad92464f70c5c6a6db482baf>
+##ALT=<ID=e3cc7ab8aab1d731650cb9cb062f3b2a,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:349975-351089,Checksum=e3cc7ab8aab1d731650cb9cb062f3b2a,RefRange=chr1:344401-345515,RefChecksum=e3cc7ab8aab1d731650cb9cb062f3b2a>
+##ALT=<ID=e432720ae95f527fd866ffd7d7603bac,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:304241-307951,Checksum=e432720ae95f527fd866ffd7d7603bac,RefRange=chr2:440624-444324,RefChecksum=826e1f18d3bfb8815ddf915aa32f31ae>
+##ALT=<ID=e61dba57da73f46bd58235ef017d8bdc,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:442130-443635,Checksum=e61dba57da73f46bd58235ef017d8bdc,RefRange=chr1:437860-439559,RefChecksum=ef769d3b76db9250f8d208002a18602c>
+##ALT=<ID=e62ff1bff4f735393c5aaffc95286021,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:471996-473953,Checksum=e62ff1bff4f735393c5aaffc95286021,RefRange=chr1:467881-469817,RefChecksum=de17691eef6a3e969deddcd3edb5da95>
+##ALT=<ID=e7809cb657fa8c20db32c679e350e33c,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:103815-104705,Checksum=e7809cb657fa8c20db32c679e350e33c,RefRange=chr1:104440-105330,RefChecksum=9b124928bfffebe27777ac72444a6de0>
+##ALT=<ID=e78cf607624c5d2a8644cd7c1b9c233a,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:413025-416011,Checksum=e78cf607624c5d2a8644cd7c1b9c233a,RefRange=chr1:411664-414649,RefChecksum=ffaea197b2715789791ac2bf41fae57d>
+##ALT=<ID=e7d673f2c6b1bc8201958b77c35167e9,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:205307-207882,Checksum=e7d673f2c6b1bc8201958b77c35167e9,RefRange=chr1:199527-202102,RefChecksum=301062efcaa1b572506e426ba28a92bd>
+##ALT=<ID=e80056f80d0a069e07070fffa02e82a0,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:219372-220463,Checksum=e80056f80d0a069e07070fffa02e82a0,RefRange=chr1:217735-218833,RefChecksum=70cd5977cc6448128bbd57c869268777>
+##ALT=<ID=e8a8e663e396c1fed3cdef5d1901a372,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:244633-245208,Checksum=e8a8e663e396c1fed3cdef5d1901a372,RefRange=chr2:387479-388054,RefChecksum=deacab4f18a24c514aeec97bdeaf9bf2>
+##ALT=<ID=e8fa325dfafb360681bdce5f3b7ddaa3,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:157755-158656,Checksum=e8fa325dfafb360681bdce5f3b7ddaa3,RefRange=chr1:152211-153112,RefChecksum=e8fa325dfafb360681bdce5f3b7ddaa3>
+##ALT=<ID=e9447c56af5846682da32e6d29376a1b,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:363494-365610,Checksum=e9447c56af5846682da32e6d29376a1b,RefRange=chr2:489942-492058,RefChecksum=442e1a059c64d580a879749683cdbe12>
+##ALT=<ID=e95afeb578a9b7c4b7297368b7d5f929,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:289888-296750,Checksum=e95afeb578a9b7c4b7297368b7d5f929,RefRange=chr1:284350-291203,RefChecksum=14980ceb6baaef4beccc72d753bc0651>
+##ALT=<ID=e9f8ad8658d057bec7aab7d1c6949083,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:270063-276568,Checksum=e9f8ad8658d057bec7aab7d1c6949083,RefRange=chr1:267993-274930,RefChecksum=2e63d77ba43ba3702b5b7096092f8ddb>
+##ALT=<ID=ec942944d9df513dbdf243c0ca90dff7,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:365611-368300,Checksum=ec942944d9df513dbdf243c0ca90dff7,RefRange=chr2:492059-494744,RefChecksum=d936e6e56efbfd4a73b1595a55e73cad>
+##ALT=<ID=ed625fc44f6786e9f95fd42c5b60abc7,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr1:239543-241477,Checksum=ed625fc44f6786e9f95fd42c5b60abc7,RefRange=chr1:237906-239840,RefChecksum=fdb74c2f273b502b32e5def8197d87b5>
+##ALT=<ID=edd32cefa85c79d084254543a5930009,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:206098-210946,Checksum=edd32cefa85c79d084254543a5930009,RefRange=chr2:328025-332872,RefChecksum=0285e840c9a9f76d06a1f9260c6f724e>
+##ALT=<ID=edf7d43aa6388c861dba92330018c7ee,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:469072-469706,Checksum=edf7d43aa6388c861dba92330018c7ee,RefRange=chr1:464982-465615,RefChecksum=6f0ef96ae0bf879c13a6b3a89dcd0a00>
+##ALT=<ID=eea6fd72a4eb4c4502956d2a0c745a4b,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:21463-22517,Checksum=eea6fd72a4eb4c4502956d2a0c745a4b,RefRange=chr2:9768-50287,RefChecksum=d2482734d04c82a3d71abb7e48b73014>
+##ALT=<ID=f05fe8c0914ef0e126109be122e42563,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:191661-193502,Checksum=f05fe8c0914ef0e126109be122e42563,RefRange=chr2:313806-315647,RefChecksum=f81c2a4bc1405030b7607bd2b99885f5>
+##ALT=<ID=f2cc8815cb2d8541442e6e16356a875c,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:24042-34097,Checksum=f2cc8815cb2d8541442e6e16356a875c,RefRange=chr1:23121-33171,RefChecksum=f30928f9b62d75aff7700cf3fa77a526>
+##ALT=<ID=f312938627cfdeb3d82ef8647a1297a9,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:271515-274985,Checksum=f312938627cfdeb3d82ef8647a1297a9,RefRange=chr2:405762-409203,RefChecksum=4e2ef14d50b314d5244349b15b897131>
+##ALT=<ID=f343ffb5b598f5e242e7cad3c5781f35,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:223351-225631,Checksum=f343ffb5b598f5e242e7cad3c5781f35,RefRange=chr2:345255-347536,RefChecksum=ed661782a3a2017b532e84b4586f975e>
+##ALT=<ID=f3701837c28832adabc3acd2f1f73029,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:20552-21463,Checksum=f3701837c28832adabc3acd2f1f73029,RefRange=chr2:1025-3173,RefChecksum=5c11b472c150a81f57aa69366d08ec9f>
+##ALT=<ID=f382def52c34efa283bd663b34de2089,Description="haplotype data for line: Ita-0",Source="vcf_dbs//assemblies.agc",SampleName=Ita-0,Regions=chr2:226834-242307,Checksum=f382def52c34efa283bd663b34de2089,RefRange=chr2:369708-385170,RefChecksum=7c22e8fffb9fc353222c8a577a6059f3>
+##ALT=<ID=f3caa1831692cb3fe362d646db26b58a,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:172126-174091,Checksum=f3caa1831692cb3fe362d646db26b58a,RefRange=chr1:166589-168558,RefChecksum=bd867a3a618c4a1d1e43760d81194736>
+##ALT=<ID=f3cc767d89f7fd8fc601a06c8d1c5364,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:165162-168492,Checksum=f3cc767d89f7fd8fc601a06c8d1c5364,RefRange=chr1:159628-162953,RefChecksum=1ae9ed7dd7f5c96504e9db592b49597c>
+##ALT=<ID=f5a77b9e6dc308723ff864250fb7feda,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:215866-219475,Checksum=f5a77b9e6dc308723ff864250fb7feda,RefRange=chr1:214150-217734,RefChecksum=df0f1831635109148d9344417b2b25b1>
+##ALT=<ID=f6af342f31b2257484d5c7d9cbf7bd27,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:217946-219417,Checksum=f6af342f31b2257484d5c7d9cbf7bd27,RefRange=chr2:339872-341321,RefChecksum=c815d474d2342f99db2cacc73cc715b5>
+##ALT=<ID=f714b55c1938a63c06eceebba5499482,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:198288-202093,Checksum=f714b55c1938a63c06eceebba5499482,RefRange=chr2:320433-323963,RefChecksum=50ac35667622eb1df45b3f5d4e800989>
+##ALT=<ID=f743c56e795673d3672e0ee42ec11027,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:80745-82214,Checksum=f743c56e795673d3672e0ee42ec11027,RefRange=chr1:75390-76845,RefChecksum=0e7a172528c66a23ed05627f54aa2040>
+##ALT=<ID=f8ab077b28076580f89f26d3c07efac8,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:361179-363157,Checksum=f8ab077b28076580f89f26d3c07efac8,RefRange=chr2:476998-478976,RefChecksum=6f54d2475b901e9dff0a02fa9a754d9c>
+##ALT=<ID=f9a35540d2aa0b9dcc41027ae580ae19,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:183957-185573,Checksum=f9a35540d2aa0b9dcc41027ae580ae19,RefRange=chr1:178407-180016,RefChecksum=dfd3503aed125fcc42d2a449ca90c960>
+##ALT=<ID=fa7f06d5781f421d585c4f367a3921ae,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:204222-206097,Checksum=fa7f06d5781f421d585c4f367a3921ae,RefRange=chr2:326095-328024,RefChecksum=40f3026051777f593821bc7fde687ac2>
+##ALT=<ID=fb5a0b8a61363046ced1477b212e2a56,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:25487-26501,Checksum=fb5a0b8a61363046ced1477b212e2a56,RefRange=chr2:176408-180032,RefChecksum=bb8d69f644352f1dbde20f9081927dfb>
+##ALT=<ID=fcdacd7cd75cef13cc006b9231cfcd20,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:467717-469071,Checksum=fcdacd7cd75cef13cc006b9231cfcd20,RefRange=chr1:463619-464981,RefChecksum=6c28fb107604a318823b6a2df9bd07d4>
+##ALT=<ID=fd26e31cff9d588bd9b43f41d35c48bf,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:230354-231608,Checksum=fd26e31cff9d588bd9b43f41d35c48bf,RefRange=chr1:227544-228798,RefChecksum=df3343644f6ba5ef68d7e3689afa66c0>
+##ALT=<ID=fe7a103291c6a37178aba13deb0ad942,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:251882-255529,Checksum=fe7a103291c6a37178aba13deb0ad942,RefRange=chr1:249041-252522,RefChecksum=64d3d50b3b78d45c5bc6f9d352c95d15>
+##ALT=<ID=fe7e1550af676844381e9c8998dc102a,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:192708-198002,Checksum=fe7e1550af676844381e9c8998dc102a,RefRange=chr1:187145-192436,RefChecksum=5ebac52b6e9f693a5655d730d7a4faa0>
+##ALT=<ID=fec5913c640ee2efdb3472b15bd2c26b,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr1:303993-307856,Checksum=fec5913c640ee2efdb3472b15bd2c26b,RefRange=chr1:298451-302310,RefChecksum=a01efd19112bb68f27423f25b4389621>
+##ALT=<ID=feccae31736694210ceced9937c6df1a,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:255530-257531,Checksum=feccae31736694210ceced9937c6df1a,RefRange=chr1:252523-254530,RefChecksum=079cd88e60e47ecdfcefd3cf810d2d09>
+##ALT=<ID=fedbdec9fa329883fa7ef19059c986a5,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr2:111921-117963,Checksum=fedbdec9fa329883fa7ef19059c986a5,RefRange=chr2:243650-249686,RefChecksum=8530fac8969ee287b8bb4b903642c503>
+##ALT=<ID=feef6cff878680ea75760414cb5e17ae,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:416012-419777,Checksum=feef6cff878680ea75760414cb5e17ae,RefRange=chr1:414650-418415,RefChecksum=e70b73fd21aeb52838c824e48f06295d>
+##ALT=<ID=ffb737d5910fc415200b71725501324d,Description="haplotype data for line: Cvi-0",Source="vcf_dbs//assemblies.agc",SampleName=Cvi-0,Regions=chr1:292847-294888,Checksum=ffb737d5910fc415200b71725501324d,RefRange=chr1:291204-293245,RefChecksum=da9231c88cab87927e7d9d3fb0cb92ae>
+##ALT=<ID=ffce8d090c34743b1cfd89d538876049,Description="haplotype data for line: Bla-1",Source="vcf_dbs//assemblies.agc",SampleName=Bla-1,Regions=chr2:268240-269254,Checksum=ffce8d090c34743b1cfd89d538876049,RefRange=chr2:390406-391420,RefChecksum=71371e58a9f4d7be1f39e2d30578304e>
+##FORMAT=<ID=AD,Number=3,Type=Integer,Description="Allelic depths for the ref and alt alleles in the order listed">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read Depth (only filtered reads used for calling)">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype Quality">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=PL,Number=G,Type=Integer,Description="Normalized, Phred-scaled likelihoods for genotypes as defined in the VCF specification">
+##INFO=<ID=AF,Number=3,Type=Integer,Description="Allele Frequency">
+##INFO=<ID=ASM_Chr,Number=1,Type=String,Description="Assembly chromosome">
+##INFO=<ID=ASM_End,Number=1,Type=Integer,Description="Assembly end position">
+##INFO=<ID=ASM_Start,Number=1,Type=Integer,Description="Assembly start position">
+##INFO=<ID=ASM_Strand,Number=1,Type=String,Description="Assembly strand">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Total Depth">
+##INFO=<ID=END,Number=1,Type=Integer,Description="Stop position of the interval">
+##INFO=<ID=NS,Number=1,Type=Integer,Description="Number of Samples With Data">
+##contig=<ID=chr1,length=500000>
+##contig=<ID=chr2,length=500000>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	simulated_Ler0_1
+chr1	3631	.	T	<4f8711b8b14e32f662a09246dc23eaf2>	.	.	END=5899	GT	1
+chr1	5900	.	T	<224f9bc8afa03c54abd52b1c54cb80c8>	.	.	END=6787	GT	1
+chr1	6788	.	G	<5b8ecd81b5638cd9c1949395b9f6bef6>	.	.	END=9130	GT	1
+chr1	9131	.	C	<7ca41ed1df8c1365b47b96e730124a04>	.	.	END=11648	GT	1
+chr1	11649	.	G	<41a13959e1ab219a06d921a633224ded>	.	.	END=13714	GT	1
+chr1	13715	.	T	<025b848075593c5d267ab2d76e757458>	.	.	END=23120	GT	1
+chr1	23121	.	G	<f2cc8815cb2d8541442e6e16356a875c>	.	.	END=33171	GT	1
+chr1	33172	.	C	<5e50b70e84ca929319f64618deeec800>	.	.	END=37871	GT	1
+chr1	37872	.	C	<c87bf874a04544f417f2f15c717f9baf>	.	.	END=38443	GT	1
+chr1	38444	.	G	<74219b68e4e0300c43280066b475ae11>	.	.	END=41017	GT	1
+chr1	41018	.	C	<4adccfe743010bc9130e24a46dc901bd>	.	.	END=44969	GT	1
+chr1	44970	.	T	<04a5ed1c083e00de25e1336c2ebb4fa3>	.	.	END=47059	GT	1
+chr1	47060	.	A	<77de726268c74027f761796b8f0a1317>	.	.	END=49304	GT	1
+chr1	49305	.	C	<56c46a7a81989e875c4786a5198f1049>	.	.	END=49908	GT	1
+chr1	49909	.	A	<6ed8561cf96daf9e9bcfa4924d678380>	.	.	END=51210	GT	1
+chr1	51211	.	A	<727cd62d4392e9074f944309b397a76d>	.	.	END=51952	GT	1
+chr1	51953	.	G	<67f28b059090842246b26f6b9db70276>	.	.	END=54737	GT	1
+chr1	54738	.	A	<06ec82949fb83aed027ab763f0540ec1>	.	.	END=57163	GT	1
+chr1	57164	.	T	<318eeb26b1a9719dc58c6c0b02a260c3>	.	.	END=59215	GT	1
+chr1	59216	.	C	<a2ed552659791cf8735752e171cf6dd7>	.	.	END=61904	GT	1
+chr1	61905	.	T	<24b9f17c4a518258b515458e4e223606>	.	.	END=64165	GT	1
+chr1	64166	.	A	<9d97fc465d500f5611e3743bfcd52c6b>	.	.	END=67774	GT	1
+chr1	67775	.	G	<57fdd8d0249fdbf9196ebb57de17c209>	.	.	END=69910	GT	1
+chr1	69911	.	A	<c611999f9f434dc3cd98b91cef7d4f77>	.	.	END=72338	GT	1
+chr1	72339	.	A	<6b721fd32cc784d39d3fa23ab6c32cd1>	.	.	END=74737	GT	1
+chr1	74738	.	A	<17a66e4fee026c06ec746578b714e33d>	.	.	END=75389	GT	1
+chr1	75390	.	T	<f743c56e795673d3672e0ee42ec11027>	.	.	END=76845	GT	1
+chr1	76846	.	T	<c731cdfdc5c8325b063ace9c2c901f4d>	.	.	END=82983	GT	1
+chr1	82984	.	T	<b26da9a6d103877e2288caa731e3e83f>	.	.	END=84946	GT	1
+chr1	84947	.	C	<17fe23794f13c1c99dd0f1987ccb7be6>	.	.	END=86485	GT	1
+chr1	86486	.	G	<bb05a4a5e4dd76bdf6686b54e4be0dd3>	.	.	END=88409	GT	1
+chr1	88410	.	C	<25bf38fa32dcc1563121580406b1274d>	.	.	END=90502	GT	1
+chr1	90503	.	C	<37c06a865f2155b06172fa63ca704b9c>	.	.	END=91341	GT	1
+chr1	91342	.	A	<820f069d1303c1eccd61fda56bf8b39d>	.	.	END=95681	GT	1
+chr1	95682	.	T	<8357b345f7f52afd27f241e20b382ba0>	.	.	END=97411	GT	1
+chr1	97412	.	C	<418f5bfbe852ee8fe67abbad4d9be07f>	.	.	END=99240	GT	1
+chr1	99241	.	T	<29881847c26ff67133738135fbdb2f6a>	.	.	END=99864	GT	1
+chr1	99865	.	C	<85b4f888f73fec0840caf868d8ad626e>	.	.	END=101987	GT	1
+chr1	101988	.	C	<4cd5719edd7d2549805d6febf8fbd12f>	.	.	END=104439	GT	1
+chr1	104440	.	T	<e7809cb657fa8c20db32c679e350e33c>	.	.	END=105330	GT	1
+chr1	105331	.	A	<31770418e44c846addb73c23d62b477a>	.	.	END=108945	GT	1
+chr1	108946	.	G	<94742f7cc4c4aebe6fb964253772f4fb>	.	.	END=111699	GT	1
+chr1	111700	.	A	<c00ccd126afd1810dd510833c76cd622>	.	.	END=112262	GT	1
+chr1	112263	.	A	<c9cf1d2b59f7877c4e3cdf0654063324>	.	.	END=114201	GT	1
+chr1	114202	.	T	<5f52ea5725eb3c641fb2c6657cb101d4>	.	.	END=116407	GT	1
+chr1	116408	.	A	<6d2c2a65e57433303b8fbc2d60fd2ed4>	.	.	END=118845	GT	1
+chr1	118846	.	A	<4b1338aae852a5d0bbcdc944b17a6528>	.	.	END=119380	GT	1
+chr1	119381	.	T	<3dc3cd5f220c3e2739c5821ac4fd2781>	.	.	END=120153	GT	1
+chr1	120154	.	T	<67f855d516a734902a4b22c3672e7c63>	.	.	END=130577	GT	1
+chr1	130578	.	G	<0c123ecae65e95342358ff41be3a3864>	.	.	END=132269	GT	1
+chr1	132270	.	A	<bde4c5bafef8bb77f7959c1623dc51ae>	.	.	END=135924	GT	1
+chr1	135925	.	T	<02d3f1c58a74e714a3c2bca171ac086a>	.	.	END=138162	GT	1
+chr1	138163	.	A	<82321432638e1295d71133ba24938f90>	.	.	END=139680	GT	1
+chr1	139681	.	A	<65033a6617d14a626753041424cbcdcb>	.	.	END=141869	GT	1
+chr1	141870	.	G	<390b858bfd389706491b3e0da24c26df>	.	.	END=143488	GT	1
+chr1	143489	.	T	<710b5306e6acc726a8070ce5a46f70a2>	.	.	END=146479	GT	1
+chr1	146480	.	T	<dcdc48fe969432a3be8821e2685b5cfc>	.	.	END=147042	GT	1
+chr1	147043	.	T	<2a65986ac18e282f070f00b38868a2cc>	.	.	END=149848	GT	1
+chr1	149849	.	C	<93c52c873ffc9e8d43d2dc5e66cb3306>	.	.	END=150688	GT	1
+chr1	150689	.	A	<a9fdd5be0ed1310b7f2e80e676cd7267>	.	.	END=152210	GT	1
+chr1	152211	.	G	<e8fa325dfafb360681bdce5f3b7ddaa3>	.	.	END=153112	GT	1
+chr1	153113	.	T	<8e76d623e226c3e0cfb609691aa8d097>	.	.	END=154366	GT	1
+chr1	154367	.	T	<8a1558f9879762eafa69092eaa9f731e>	.	.	END=156476	GT	1
+chr1	156477	.	A	<1eb8bb0371efb3ae4db95067ebf90221>	.	.	END=158823	GT	1
+chr1	158824	.	C	<a952ea95b0b2c4cca916ffcd7c776741>	.	.	END=159627	GT	1
+chr1	159628	.	T	<f3cc767d89f7fd8fc601a06c8d1c5364>	.	.	END=162953	GT	1
+chr1	162954	.	C	<06bb6c74d1288721ac557055ecc0286c>	.	.	END=164104	GT	1
+chr1	164105	.	C	<c0a2909f923393df6689a308089e707f>	.	.	END=165517	GT	1
+chr1	165518	.	T	<59c10e6f90f5b7db3186dd061437c7a3>	.	.	END=166588	GT	1
+chr1	166589	.	T	<f3caa1831692cb3fe362d646db26b58a>	.	.	END=168558	GT	1
+chr1	168559	.	T	<dcad8da5fe66f25e326ff18abc50821c>	.	.	END=171386	GT	1
+chr1	171387	.	C	<87ab376fad1123e5070e65eede0e1724>	.	.	END=172948	GT	1
+chr1	172949	.	T	<4a569783b4c8815d40c63cfb8edc42e7>	.	.	END=175705	GT	1
+chr1	175706	.	A	<a68db854749631a9bcd8870b3481fa8b>	.	.	END=178406	GT	1
+chr1	178407	.	A	<f9a35540d2aa0b9dcc41027ae580ae19>	.	.	END=180016	GT	1
+chr1	180017	.	T	<441421e59ce4d09c30e011511260b8fe>	.	.	END=182749	GT	1
+chr1	182750	.	T	<4915a1dd34f367f04eb0ad9a3d456217>	.	.	END=185032	GT	1
+chr1	185033	.	A	<3eff49a9b56b6668c72031e7e62e601f>	.	.	END=187144	GT	1
+chr1	187145	.	C	<fe7e1550af676844381e9c8998dc102a>	.	.	END=192436	GT	1
+chr1	192437	.	C	<accf6b2b5934b2fc1f3759369f02e27f>	.	.	END=193670	GT	1
+chr1	193671	.	G	<499b56e8a2e5242cc2ea140854d11f81>	.	.	END=195644	GT	1
+chr1	195645	.	G	<2795b09adc99746b6789560e93b1ab15>	.	.	END=198787	GT	1
+chr1	198788	.	C	<d8f238292ed4962daa9f78d99be88e9d>	.	.	END=199526	GT	1
+chr1	199527	.	A	<e7d673f2c6b1bc8201958b77c35167e9>	.	.	END=202102	GT	1
+chr1	202103	.	C	<4bac7fce2c769c70635559ea4f5db84b>	.	.	END=204934	GT	1
+chr1	204935	.	T	<65af8bc4fcf1fdc546dcbefe207c59ed>	.	.	END=207642	GT	1
+chr1	207643	.	T	<dfd96dfa6d0f34ac98ec69848c66bb12>	.	.	END=208994	GT	1
+chr1	208995	.	T	<bea5b797f73bef652744e6adf8548d4a>	.	.	END=213082	GT	1
+chr1	213083	.	A	<4405904ee24724983ff21a5d25ec0916>	.	.	END=214149	GT	1
+chr1	214150	.	T	<f5a77b9e6dc308723ff864250fb7feda>	.	.	END=217734	GT	1
+chr1	217735	.	A	<e80056f80d0a069e07070fffa02e82a0>	.	.	END=218833	GT	1
+chr1	218834	.	T	<6a1c37f9d3d875b1de34b23c34ffe5a5>	.	.	END=221641	GT	1
+chr1	221642	.	T	<46f94a15466804cfb94557464c4871e2>	.	.	END=224351	GT	1
+chr1	224352	.	T	<54cd59964a68d4f8c234306da96c97cb>	.	.	END=225664	GT	1
+chr1	225665	.	A	<0b4ad1102b2d4be89c1ea87351548283>	.	.	END=227543	GT	1
+chr1	227544	.	A	<fd26e31cff9d588bd9b43f41d35c48bf>	.	.	END=228798	GT	1
+chr1	228799	.	A	<3c054d613923116316d4a6da605706ce>	.	.	END=232839	GT	1
+chr1	232840	.	T	<c683ab35f2ad88735888a41c454519ba>	.	.	END=237905	GT	1
+chr1	237906	.	C	<ed625fc44f6786e9f95fd42c5b60abc7>	.	.	END=239840	GT	1
+chr1	239841	.	C	<c5c3397e73642955be0e521c7e136078>	.	.	END=242712	GT	1
+chr1	242713	.	T	<de0e6673483202da830dbe11a41c3fb7>	.	.	END=246054	GT	1
+chr1	246055	.	G	<535c19344064e1e34275a5e76c42cd06>	.	.	END=248440	GT	1
+chr1	248441	.	C	<c80c7dfa25036bd4e16e9e604918b4ca>	.	.	END=249040	GT	1
+chr1	249041	.	A	<fe7a103291c6a37178aba13deb0ad942>	.	.	END=252522	GT	1
+chr1	252523	.	A	<feccae31736694210ceced9937c6df1a>	.	.	END=254530	GT	1
+chr1	254531	.	A	<6c4d8306c7706bf4f48609ec00f9a521>	.	.	END=259306	GT	1
+chr1	259307	.	T	<12fa1eb66afdc901bdb912b746d7db3d>	.	.	END=261667	GT	1
+chr1	261668	.	A	<221dd8ec366eef30591d639af98c0109>	.	.	END=262827	GT	1
+chr1	262828	.	C	<2c83171b3c481b4b4fd57009947b140c>	.	.	END=266324	GT	1
+chr1	266325	.	T	<b1ceba7b5fb9dbfc0d3a8174c0b2113d>	.	.	END=267992	GT	1
+chr1	267993	.	C	<e9f8ad8658d057bec7aab7d1c6949083>	.	.	END=274930	GT	1
+chr1	274931	.	T	<27dda2b93c44255b0eef1a5e48e16006>	.	.	END=278599	GT	1
+chr1	278600	.	C	<22475fff97150ab90c3da9940116edf4>	.	.	END=284349	GT	1
+chr1	284350	.	G	<e95afeb578a9b7c4b7297368b7d5f929>	.	.	END=291203	GT	1
+chr1	291204	.	T	<ffb737d5910fc415200b71725501324d>	.	.	END=293245	GT	1
+chr1	293246	.	T	<8bef0879e3b55531bf99b7c140f56dd3>	.	.	END=295086	GT	1
+chr1	295087	.	A	<89eeb9501460686bb7dd49d373d6d0a3>	.	.	END=296000	GT	1
+chr1	296001	.	T	<3c8f6d15b53410a1395a1c5684151a25>	.	.	END=298450	GT	1
+chr1	298451	.	C	<fec5913c640ee2efdb3472b15bd2c26b>	.	.	END=302310	GT	1
+chr1	302311	.	C	<6d2dd96186f0d81971100003c681ce1b>	.	.	END=303536	GT	1
+chr1	303537	.	C	<b7561ce6a4d984e20b8461cc5732cb6b>	.	.	END=306466	GT	1
+chr1	306467	.	T	<b48b3b41dbcbd9ea97976c2dff90ab03>	.	.	END=309541	GT	1
+chr1	309542	.	A	<64219b661c61cd7d9102720b7744a584>	.	.	END=310168	GT	1
+chr1	310169	.	G	<cf8509bd85b6a4b2879f5c0d8248763f>	.	.	END=319667	GT	1
+chr1	319668	.	A	<5c39e2d865174cfa0ba7258f35caf5bb>	.	.	END=325315	GT	1
+chr1	325316	.	G	<93e909bc72cd3c90c3c4ce926833fe35>	.	.	END=337912	GT	1
+chr1	337913	.	C	<377383a1c4ea8eecb974d34b41e68c25>	.	.	END=340088	GT	1
+chr1	340089	.	C	<a67ab2595e9a57cb4b464bb26598ad13>	.	.	END=342040	GT	1
+chr1	342041	.	T	<7b74216e261e0f45bfaff4ad48bcb7cf>	.	.	END=342917	GT	1
+chr1	342918	.	T	<381fe1be368f1b02141ea49fe9dc0985>	.	.	END=344400	GT	1
+chr1	344401	.	T	<e3cc7ab8aab1d731650cb9cb062f3b2a>	.	.	END=345515	GT	1
+chr1	345516	.	C	<6304a2ff7c15f5e64ffbeef6c9bd6502>	.	.	END=347612	GT	1
+chr1	347613	.	G	<04fa87d5657150329dbddc465645bdfa>	.	.	END=352545	GT	1
+chr1	352546	.	T	<1df9fee2e03504b4f2ff11b76929fc0e>	.	.	END=357258	GT	1
+chr1	357259	.	T	<2e89123a3f4d8df661f61bca147b9566>	.	.	END=357905	GT	1
+chr1	357906	.	A	<4f8556049148a2f79e52916c8f4f3462>	.	.	END=359116	GT	1
+chr1	359117	.	T	<1c2101796c78336969dc60e0c9bc1bfe>	.	.	END=360917	GT	1
+chr1	360918	.	T	<91369e9dfdec67f9e5952303c76f8ae1>	.	.	END=363142	GT	1
+chr1	363143	.	G	<58e94e2e8bfb0cc868f8afbde5b1a8c7>	.	.	END=365164	GT	1
+chr1	365165	.	C	<7fee14bb10b164972e00d9fa0af6a9e0>	.	.	END=367443	GT	1
+chr1	367444	.	A	<404044a8b4b3fd751c7351be954b1b96>	.	.	END=370194	GT	1
+chr1	370195	.	T	<c4b5fc01ae0375643dc426d2748f68b3>	.	.	END=371090	GT	1
+chr1	371091	.	G	<075fd21cd41d577edf6307c6dd68b5a2>	.	.	END=373334	GT	1
+chr1	373335	.	A	<747087e175e81d3417448d3fc3a68f1f>	.	.	END=386913	GT	1
+chr1	386914	.	G	<33910f2be02d0ca1787dc87e19c6e633>	.	.	END=389811	GT	1
+chr1	389812	.	C	<5be2ca12b0e29f293b800a9ab139eb97>	.	.	END=392816	GT	1
+chr1	392817	.	G	<aa3aa554830394efc4979a5234df39a5>	.	.	END=395688	GT	1
+chr1	395689	.	G	<d93b00bb5d2d6ca4dd892d2fd7869292>	.	.	END=401919	GT	1
+chr1	401920	.	G	<aff79b3bdd9331fdf19010d9b93ed93b>	.	.	END=403099	GT	1
+chr1	403100	.	T	<b815da7ed2c124639fb134acb2a58feb>	.	.	END=404599	GT	1
+chr1	404600	.	G	<80131ffffce835aa3b35475c38f87d38>	.	.	END=408619	GT	1
+chr1	408620	.	T	<528092fbb6bf71d6924ccc87c990a4a2>	.	.	END=410680	GT	1
+chr1	410681	.	G	<83da13a56a19341ed7363c12cc022d67>	.	.	END=411663	GT	1
+chr1	411664	.	A	<e78cf607624c5d2a8644cd7c1b9c233a>	.	.	END=414649	GT	1
+chr1	414650	.	A	<feef6cff878680ea75760414cb5e17ae>	.	.	END=418415	GT	1
+chr1	418416	.	T	<c8e4153796d068f04112526310bac60a>	.	.	END=422579	GT	1
+chr1	422580	.	C	<43ba5caa15ea05530816352cd74d3713>	.	.	END=427547	GT	1
+chr1	427548	.	T	<aa972c1eae21af9d07772426ffbc98ad>	.	.	END=428649	GT	1
+chr1	428650	.	T	<7f6a058b14129400ea28dbaf80284a57>	.	.	END=430720	GT	1
+chr1	430721	.	T	<6ae2725201cb6ffad2d008bff3b4241d>	.	.	END=434964	GT	1
+chr1	434965	.	A	<003c359b4a4fb8f480835ae62e7b82dc>	.	.	END=436922	GT	1
+chr1	436923	.	T	<be473f261c244920fd3eeecd31a7408e>	.	.	END=437859	GT	1
+chr1	437860	.	T	<e61dba57da73f46bd58235ef017d8bdc>	.	.	END=439559	GT	1
+chr1	439560	.	G	<9530a22bf5e3b2a6a88008eeb52d62a0>	.	.	END=440199	GT	1
+chr1	440200	.	A	<b3ad41ace8140d86e566a76716b95eab>	.	.	END=443117	GT	1
+chr1	443118	.	C	<40fde9eac9a0669c638862437ee8e125>	.	.	END=446296	GT	1
+chr1	446297	.	T	<3a798696b35afa595c120ddb1df72ae8>	.	.	END=448422	GT	1
+chr1	448423	.	A	<873a0c5e96feb58ff210e9ea64689440>	.	.	END=450460	GT	1
+chr1	450461	.	G	<bec0507007b15aacdb3ef42fdc54ef6d>	.	.	END=453106	GT	1
+chr1	453107	.	A	<42d3785f46e5cacaf1004eac61d9f79e>	.	.	END=455687	GT	1
+chr1	455688	.	G	<c922e387865dbe521cd4b2ada6c73fb6>	.	.	END=460831	GT	1
+chr1	460832	.	G	<413ccd6aa4d1bc460fe7d768c3cce241>	.	.	END=461827	GT	1
+chr1	461828	.	C	<cde26a3c923b0386eae51452d6e8ee41>	.	.	END=463618	GT	1
+chr1	463619	.	A	<fcdacd7cd75cef13cc006b9231cfcd20>	.	.	END=464981	GT	1
+chr1	464982	.	C	<edf7d43aa6388c861dba92330018c7ee>	.	.	END=465615	GT	1
+chr1	465616	.	A	<8a17eef38a278801af596566987da036>	.	.	END=467880	GT	1
+chr1	467881	.	A	<e62ff1bff4f735393c5aaffc95286021>	.	.	END=469817	GT	1
+chr1	469818	.	C	<0268cb1e420f1c114988f793c6228c3d>	.	.	END=470693	GT	1
+chr1	470694	.	T	<13a84540367fb1813918663f84d4e239>	.	.	END=471882	GT	1
+chr1	471883	.	C	<866cf25e474bab5019b8487445600e46>	.	.	END=473336	GT	1
+chr1	473337	.	A	<36e49160a4f8ce6da9faa9c803abf068>	.	.	END=474372	GT	1
+chr1	474373	.	A	<683df03fbd5abf02d9289cc74c2b2d01>	.	.	END=476612	GT	1
+chr1	476613	.	G	<04682820cfd921870a5152ebd27b5e79>	.	.	END=479112	GT	1
+chr1	479113	.	G	<75a08cecc22365b5e39c0f4c480c36e8>	.	.	END=480649	GT	1
+chr1	480650	.	T	<cf9ca1e9cd02713fc44575b4834e98d7>	.	.	END=483373	GT	1
+chr1	483374	.	A	<8067ba1f6466a0eb21cf82374f2e414f>	.	.	END=486799	GT	1
+chr1	486800	.	T	<c3425b7f9eca4dcef48f1ea8e162fd04>	.	.	END=489651	GT	1
+chr1	489652	.	T	<a47eee68b8fead285a6d10d4200fc802>	.	.	END=490859	GT	1
+chr1	490860	.	T	<005784fec57cf38ccb0a0e7ffef11d27>	.	.	END=492979	GT	1
+chr1	492980	.	C	<3d67cc08826661db336595bf0d447e65>	.	.	END=493638	GT	1
+chr1	493639	.	A	<7fa0ee68618c5373041e0bf78abb17a9>	.	.	END=496332	GT	1
+chr2	1025	.	C	<f3701837c28832adabc3acd2f1f73029>	.	.	END=3173	GT	1
+chr2	3174	.	T	<0d61f8370cad1d412f80b84d143e1257>	.	.	END=6570	GT	1
+chr2	6571	.	G	<0d61f8370cad1d412f80b84d143e1257>	.	.	END=9767	GT	1
+chr2	9768	.	G	<eea6fd72a4eb4c4502956d2a0c745a4b>	.	.	END=50287	GT	1
+chr2	50288	.	T	<8de95544ced69ca53fec7730c17557e3>	.	.	END=51487	GT	1
+chr2	51488	.	G	.	.	.	END=53268	GT	.
+chr2	53269	.	C	.	.	.	END=54468	GT	.
+chr2	54469	.	G	.	.	.	END=68336	GT	.
+chr2	68337	.	G	<5742b7848e3a770e95730bd487cdeed9>	.	.	END=69884	GT	1
+chr2	69885	.	G	<68af3d0ddb68fe50847513408bb8fa4e>	.	.	END=73207	GT	1
+chr2	73208	.	T	<0d61f8370cad1d412f80b84d143e1257>	.	.	END=75519	GT	1
+chr2	75520	.	G	<0d61f8370cad1d412f80b84d143e1257>	.	.	END=77865	GT	1
+chr2	77866	.	C	<0d61f8370cad1d412f80b84d143e1257>	.	.	END=79778	GT	1
+chr2	79779	.	G	<a60ff968468707d1124afbde32a58104>	.	.	END=85400	GT	1
+chr2	85401	.	C	<1d9723191f17b3f1a0b5b93f16c77bf6>	.	.	END=96863	GT	1
+chr2	96864	.	C	<7fb865bf3b92a07b04e4fde4d589cb4b>	.	.	END=100483	GT	1
+chr2	100484	.	A	<260c3f51d08e340bc58a3b76f5da68b3>	.	.	END=101566	GT	1
+chr2	101567	.	T	<29ae980865e3f254b7844055037a0516>	.	.	END=102155	GT	1
+chr2	102156	.	C	<1cdc20a1e8b525e2fc181b0f2fc2115a>	.	.	END=104574	GT	1
+chr2	104575	.	G	<02cf160808173778a30345006d122e4b>	.	.	END=106620	GT	1
+chr2	106621	.	C	<04de24a1ad77af16c9e088ea71a00f46>	.	.	END=108829	GT	1
+chr2	108830	.	T	<0d61f8370cad1d412f80b84d143e1257>	.	.	END=114925	GT	1
+chr2	114926	.	G	<0d61f8370cad1d412f80b84d143e1257>	.	.	END=117968	GT	1
+chr2	117969	.	T	<ce294b049095ae2c0adef6d3deec273c>	.	.	END=121980	GT	1
+chr2	121981	.	C	<4957c1afbf14407fc01471125c8aeb07>	.	.	END=123022	GT	1
+chr2	123023	.	T	<4155cb69da6dcd8d8b945b8f0f666b52>	.	.	END=126611	GT	1
+chr2	126612	.	G	<0d61f8370cad1d412f80b84d143e1257>	.	.	END=128290	GT	1
+chr2	128291	.	A	<0d61f8370cad1d412f80b84d143e1257>	.	.	END=129132	GT	1
+chr2	129133	.	T	<0d61f8370cad1d412f80b84d143e1257>	.	.	END=132577	GT	1
+chr2	132578	.	G	<0d61f8370cad1d412f80b84d143e1257>	.	.	END=134455	GT	1
+chr2	134456	.	G	<0d61f8370cad1d412f80b84d143e1257>	.	.	END=135222	GT	1
+chr2	135223	.	T	<0d61f8370cad1d412f80b84d143e1257>	.	.	END=137916	GT	1
+chr2	137917	.	C	<0d61f8370cad1d412f80b84d143e1257>	.	.	END=139308	GT	1
+chr2	139309	.	C	<0d61f8370cad1d412f80b84d143e1257>	.	.	END=144524	GT	1
+chr2	144525	.	G	<0d61f8370cad1d412f80b84d143e1257>	.	.	END=145675	GT	1
+chr2	145676	.	A	<0d61f8370cad1d412f80b84d143e1257>	.	.	END=150585	GT	1
+chr2	150586	.	C	<0d61f8370cad1d412f80b84d143e1257>	.	.	END=151971	GT	1
+chr2	151972	.	T	<0d61f8370cad1d412f80b84d143e1257>	.	.	END=152827	GT	1
+chr2	152828	.	C	<0d61f8370cad1d412f80b84d143e1257>	.	.	END=154096	GT	1
+chr2	154097	.	A	<166329e84a53a7fc62257140cb626c98>	.	.	END=160870	GT	1
+chr2	160871	.	T	<dfcf28d0734569a6a693bc8194de62bf>	.	.	END=163953	GT	1
+chr2	163954	.	A	<dfcf28d0734569a6a693bc8194de62bf>	.	.	END=167259	GT	1
+chr2	167260	.	G	<dfcf28d0734569a6a693bc8194de62bf>	.	.	END=167930	GT	1
+chr2	167931	.	G	<dfcf28d0734569a6a693bc8194de62bf>	.	.	END=168630	GT	1
+chr2	168631	.	T	<dfcf28d0734569a6a693bc8194de62bf>	.	.	END=169642	GT	1
+chr2	169643	.	T	<dfcf28d0734569a6a693bc8194de62bf>	.	.	END=171097	GT	1
+chr2	171098	.	G	<dfcf28d0734569a6a693bc8194de62bf>	.	.	END=172175	GT	1
+chr2	172176	.	C	<dfcf28d0734569a6a693bc8194de62bf>	.	.	END=174167	GT	1
+chr2	174168	.	A	<dfcf28d0734569a6a693bc8194de62bf>	.	.	END=176407	GT	1
+chr2	176408	.	T	<fb5a0b8a61363046ced1477b212e2a56>	.	.	END=180032	GT	1
+chr2	180033	.	G	<3c06b36b455ca80d8a7d8a29c258ecdc>	.	.	END=183764	GT	1
+chr2	183765	.	G	<61b0d88c61f9a081c9ef418924ec5912>	.	.	END=187607	GT	1
+chr2	187608	.	G	<07dbb5dc54e793fe98f9111a6d5ef72f>	.	.	END=190369	GT	1
+chr2	190370	.	T	<9ed491a9cd6e0844f6f06fa6ab5ccec4>	.	.	END=193163	GT	1
+chr2	193164	.	G	<e2197cc98f6cf8d4bb50606165694f7e>	.	.	END=199280	GT	1
+chr2	199281	.	C	<a177ffd37088016b57f15360a91c9c53>	.	.	END=203126	GT	1
+chr2	203127	.	C	<17d05c7e641135cefa47fa41111f3090>	.	.	END=205774	GT	1
+chr2	205775	.	C	<4eaa517679e9e1b959620143c8c37f90>	.	.	END=214473	GT	1
+chr2	214474	.	A	<aa32553fcf4cf89a0165a5fe0c73695d>	.	.	END=216604	GT	1
+chr2	216605	.	T	<1b37e0d178045d16d9ec5c5c3a41ee3d>	.	.	END=221002	GT	1
+chr2	221003	.	A	<0d83a05b1423a30bed2ba428c3aad730>	.	.	END=223809	GT	1
+chr2	223810	.	G	<5b1905956ab330478b68c3eb8c73fe64>	.	.	END=226234	GT	1
+chr2	226235	.	C	<8cf501bdc4cf841dcc361f99c9c2966c>	.	.	END=228576	GT	1
+chr2	228577	.	T	<4f2c7276f951c8677d3a8641a7c55c31>	.	.	END=232540	GT	1
+chr2	232541	.	T	<0d8b7b2691a7b0d19afdec3e278a8e72>	.	.	END=235924	GT	1
+chr2	235925	.	A	<41d2d05adf5976cb6bfafb1d705fd8b8>	.	.	END=237253	GT	1
+chr2	237254	.	A	<111fda9587b6ddfb18479d9956bf9956>	.	.	END=239668	GT	1
+chr2	239669	.	T	<54290d8c9c63e5c8f435c9f765495987>	.	.	END=240687	GT	1
+chr2	240688	.	T	<7c7946f55540b48e30cba098e2e76903>	.	.	END=242040	GT	1
+chr2	242041	.	T	<2891d6ba6003a0cdf964cea2f8c53c5e>	.	.	END=243649	GT	1
+chr2	243650	.	C	<fedbdec9fa329883fa7ef19059c986a5>	.	.	END=249686	GT	1
+chr2	249687	.	C	<0280c370fe7f9f51adbedbd7c1a83738>	.	.	END=250244	GT	1
+chr2	250245	.	T	<67e43739437c77370d03267e4a8910fe>	.	.	END=251806	GT	1
+chr2	251807	.	T	<1854c6c91b66a3c910d1d84a4ac579e8>	.	.	END=255246	GT	1
+chr2	255247	.	C	<601b6150858bd79543a4a7a2718f7e28>	.	.	END=257568	GT	1
+chr2	257569	.	A	<3cd334bcc9ffd50b43e5af3d1062876f>	.	.	END=265021	GT	1
+chr2	265022	.	T	<b83a295055bae807a0a4a03a16847f73>	.	.	END=265948	GT	1
+chr2	265949	.	A	<d1c7e1e7bc01a1308b04a3caed87a655>	.	.	END=266558	GT	1
+chr2	266559	.	C	<4839122210e77b54c03a689e5d5dc103>	.	.	END=267926	GT	1
+chr2	267927	.	C	<80fa1014f33316ba619f0035a667119d>	.	.	END=268713	GT	1
+chr2	268714	.	A	<4d579cca69ba9016e3e55b98545188ae>	.	.	END=272676	GT	1
+chr2	272677	.	T	<c5d3058083bc5b6d9090952b203f3c9a>	.	.	END=273894	GT	1
+chr2	273895	.	T	<98b09154b3bbee2adb138ba6343cdfcd>	.	.	END=275002	GT	1
+chr2	275003	.	T	<bc6d35f6eb286b75f60c638d7c1ebd6b>	.	.	END=278123	GT	1
+chr2	278124	.	A	<9c8aecd9e07aee31b94a25ea54d36faf>	.	.	END=282123	GT	1
+chr2	282124	.	C	<b1634c3b973ce16c9c8f7ee942be64e3>	.	.	END=282829	GT	1
+chr2	282830	.	T	<148fc5d0dc0f3b6d29fb5dcdb25bad02>	.	.	END=286529	GT	1
+chr2	286530	.	T	<8262c78ff23ac12bb97d752d8d4bde2d>	.	.	END=290572	GT	1
+chr2	290573	.	A	<6a069f6501a0b645beefe37cbe284d5d>	.	.	END=292688	GT	1
+chr2	292689	.	T	<3395427510ef6d944befa2f70b3f2490>	.	.	END=295454	GT	1
+chr2	295455	.	G	<45e4afbeb6c78524dc6a772b4d73ab89>	.	.	END=296364	GT	1
+chr2	296365	.	A	<991265d58b112e600dc95957ee48fa99>	.	.	END=298215	GT	1
+chr2	298216	.	T	<ccf1564e961bc11eb498ab3141fee4d4>	.	.	END=306250	GT	1
+chr2	306251	.	A	<5f459f5a41727271a947f0e447e258bc>	.	.	END=313805	GT	1
+chr2	313806	.	A	<f05fe8c0914ef0e126109be122e42563>	.	.	END=315647	GT	1
+chr2	315648	.	A	<4ba405301fbd6fba4cd3fabf5b540b62>	.	.	END=317029	GT	1
+chr2	317030	.	A	<76bbbf868b3604fc1acc7403b7fca55f>	.	.	END=320432	GT	1
+chr2	320433	.	C	<f714b55c1938a63c06eceebba5499482>	.	.	END=323963	GT	1
+chr2	323964	.	C	<14bf67724bf1ce907f15fd93c37a8be9>	.	.	END=326094	GT	1
+chr2	326095	.	T	<fa7f06d5781f421d585c4f367a3921ae>	.	.	END=328024	GT	1
+chr2	328025	.	A	<edd32cefa85c79d084254543a5930009>	.	.	END=332872	GT	1
+chr2	332873	.	T	<1702f3d2ad5f513f473347856d3063b9>	.	.	END=336462	GT	1
+chr2	336463	.	G	<25e3bcd6f161f3a4b2916bc72d9ebed0>	.	.	END=338023	GT	1
+chr2	338024	.	T	<0d98b23a660c6c51525aaa7d6dde9e70>	.	.	END=339871	GT	1
+chr2	339872	.	A	<f6af342f31b2257484d5c7d9cbf7bd27>	.	.	END=341321	GT	1
+chr2	341322	.	A	<616fbfe3fb4257dd28b93da7d950b152>	.	.	END=342480	GT	1
+chr2	342481	.	G	<3717f1f12b134af19697fc387ec0be85>	.	.	END=343561	GT	1
+chr2	343562	.	A	<36e96d3c4e355251290e88bdee459711>	.	.	END=345254	GT	1
+chr2	345255	.	G	<f343ffb5b598f5e242e7cad3c5781f35>	.	.	END=347536	GT	1
+chr2	347537	.	C	<d4a503c5039f322879676b8f9dbb938d>	.	.	END=350179	GT	1
+chr2	350180	.	C	<12a06d62a1dbe5973c04f7a71814efc0>	.	.	END=353343	GT	1
+chr2	353344	.	C	<6dd2e90fdcbd5810af7b531ceb4460f0>	.	.	END=355594	GT	1
+chr2	355595	.	A	<3856fb6a9c1e988d587848628ef3014e>	.	.	END=357352	GT	1
+chr2	357353	.	A	<5ae3eba6d12a06417b5dbb3035dbf080>	.	.	END=360924	GT	1
+chr2	360925	.	A	<c909029b49d7ce6d8fb9f8d54616b18e>	.	.	END=362982	GT	1
+chr2	362983	.	C	<4664523becbbdd8af53c08d3b15d41a5>	.	.	END=369707	GT	1
+chr2	369708	.	A	<f382def52c34efa283bd663b34de2089>	.	.	END=385170	GT	1
+chr2	385171	.	T	<6d54ede54763afccff7e6b39b3780e41>	.	.	END=387478	GT	1
+chr2	387479	.	G	<e8a8e663e396c1fed3cdef5d1901a372>	.	.	END=388054	GT	1
+chr2	388055	.	C	<96950db227dbac378498b1e047aa116d>	.	.	END=390405	GT	1
+chr2	390406	.	A	<ffce8d090c34743b1cfd89d538876049>	.	.	END=391420	GT	1
+chr2	391421	.	T	<d29ef223675a51d5d81cdbfc7d6aa924>	.	.	END=394184	GT	1
+chr2	394185	.	G	<6f546a22e58eaa66fd841d741bc3f131>	.	.	END=396755	GT	1
+chr2	396756	.	A	<9fec3cfcb2daa9b48a3c30dda2d2df41>	.	.	END=399338	GT	1
+chr2	399339	.	C	<134c1e975a3baf6787244e0c118591a7>	.	.	END=405761	GT	1
+chr2	405762	.	G	<f312938627cfdeb3d82ef8647a1297a9>	.	.	END=409203	GT	1
+chr2	409204	.	T	<2f1a8ddba41a83cce59a5b15b40b7d97>	.	.	END=410320	GT	1
+chr2	410321	.	C	<bb1cb310c4a2eb203ebe9858524af0df>	.	.	END=416000	GT	1
+chr2	416001	.	T	<86e97ee288bf9f8c1a969a957819196b>	.	.	END=420661	GT	1
+chr2	420662	.	T	<1a15a4f23a00e04f1fc56da73b96b729>	.	.	END=421607	GT	1
+chr2	421608	.	T	<c73a4c3d194f98742b8765d2541ac983>	.	.	END=422643	GT	1
+chr2	422644	.	G	<c702b735cc4389050e09129cd17a15b5>	.	.	END=424059	GT	1
+chr2	424060	.	G	<71c9662a83afdc0761cebc6a4626e1a8>	.	.	END=425810	GT	1
+chr2	425811	.	C	<1fafb3829ba2bd2589bacec7c587c5b9>	.	.	END=427113	GT	1
+chr2	427114	.	C	<5231f4eb04626869fa8bf4ec96530dc0>	.	.	END=428900	GT	1
+chr2	428901	.	A	<4a9468f835b3fe229ac60211e16c7fbd>	.	.	END=432194	GT	1
+chr2	432195	.	A	<185677ca071d8e4cae51a377a84e21f9>	.	.	END=435100	GT	1
+chr2	435101	.	G	<002c118816a5e8c89e208afce1187181>	.	.	END=440623	GT	1
+chr2	440624	.	T	<e432720ae95f527fd866ffd7d7603bac>	.	.	END=444324	GT	1
+chr2	444325	.	T	<bf05212a2ae0decbfc012dd9d2f9bd0d>	.	.	END=450378	GT	1
+chr2	450379	.	A	<695ce7e9a1d987d35b8231fc6ee30a6a>	.	.	END=454959	GT	1
+chr2	454960	.	A	<94fc6b293f10d9dcce20216c605d2266>	.	.	END=457001	GT	1
+chr2	457002	.	A	<bcc33c75dd700520f107a407b18972a7>	.	.	END=463408	GT	1
+chr2	463409	.	G	<8d23c87885799c2207298d714f05662b>	.	.	END=464993	GT	1
+chr2	464994	.	T	<dc19474e3008e5442773dcb12f886529>	.	.	END=466955	GT	1
+chr2	466956	.	C	<bcfb947bb7d678f5568cd383eaabea3e>	.	.	END=469369	GT	1
+chr2	469370	.	A	<e2b285c588a88b22f5bf69836aefbf10>	.	.	END=472070	GT	1
+chr2	472071	.	A	<873483b0610f7e61e159a12401c73c47>	.	.	END=474107	GT	1
+chr2	474108	.	A	<1767b4c4d49ee3d3468181636b11ba6a>	.	.	END=476997	GT	1
+chr2	476998	.	A	<f8ab077b28076580f89f26d3c07efac8>	.	.	END=478976	GT	1
+chr2	478977	.	T	<9c6718e410fa378dcaa7810f196763d1>	.	.	END=481185	GT	1
+chr2	481186	.	C	<20665100d8f769180d87685b17fd4761>	.	.	END=481830	GT	1
+chr2	481831	.	C	<a13dd2b6610e18c4bff1ca1e06a18d34>	.	.	END=482334	GT	1
+chr2	482335	.	G	<0cf928d78ca417824ce9894acb41159d>	.	.	END=483829	GT	1
+chr2	483830	.	G	<827e2a0fc0a58177716e48b05672e91e>	.	.	END=487397	GT	1
+chr2	487398	.	T	<5b6c5f337a496c3e6e73e0648f0a6c4a>	.	.	END=489941	GT	1
+chr2	489942	.	T	<e9447c56af5846682da32e6d29376a1b>	.	.	END=492058	GT	1
+chr2	492059	.	C	<ec942944d9df513dbdf243c0ca90dff7>	.	.	END=494744	GT	1
+chr2	494745	.	A	<6414aee21330bf979b782c093856730f>	.	.	END=497860	GT	1
+chr2	497861	.	A	<47bba9282a9911716de586b28c959064>	.	.	END=500000	GT	1

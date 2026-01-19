@@ -1,6 +1,0 @@
-setupAnchorsWithSpliceAlignmentResultQuota begin!
-using parameters detected from the input SAM file for novel anchors identification
-totalAnchors:11
-anchors generate done!
-AnchorWave done!
-

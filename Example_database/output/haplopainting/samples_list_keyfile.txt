@@ -1,0 +1,6 @@
+Sort	 Genotype	 Group
+1	Col-0	Reference	
+2	Bla-1	Pangenome
+3	Cvi-0	Pangenome
+4	Ita-0	Pangenome
+5	Ler0_1	Imputed

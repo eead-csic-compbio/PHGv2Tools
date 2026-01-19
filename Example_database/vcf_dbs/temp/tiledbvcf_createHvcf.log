@@ -1,0 +1,184 @@
+[2025-12-23 14:32:30.926] [tiledb-vcf] [Process: 919361] [Thread: 919361] [info] Version:
+TileDB-VCF version 0.37.0
+TileDB version 2.27.2
+htslib version 1.21
+[2025-12-23 14:32:30.926] [tiledb-vcf] [Process: 919361] [Thread: 919361] [info] Command options:
+uri="vcf_dbs//hvcf_dataset"
+attributes="[]"
+vcf-attributes=""
+anchor-gap=1000
+no-duplicates=true
+compress-sample-dim=false
+compression-level=4
+enable-allele-count=false
+enable-variant-stats=false
+enable-sample-stats=false
+tile-capacity=10000
+tiledb-config="[]"
+checksum=13
+variant-stats-version=''
+log-level="debug"
+log-file="vcf_dbs//temp/tiledbvcf_createHvcf.log"
+
+[2025-12-23 14:32:31.013] [tiledb-vcf] [Process: 919361] [Thread: 919361] [debug] Adding array name='vcf_headers' uri='metadata/vcf_headers' to group uri='vcf_dbs//hvcf_dataset'
+[2025-12-23 14:32:31.013] [tiledb-vcf] [Process: 919361] [Thread: 919361] [debug] Adding group name='metadata' uri='metadata' to group uri='vcf_dbs//hvcf_dataset'
+[2025-12-23 14:32:31.019] [tiledb-vcf] [Process: 919361] [Thread: 919361] [debug] Adding array name='data' uri='data' to group uri='vcf_dbs//hvcf_dataset'
+[2025-12-23 14:32:31.022] [tiledb-vcf] [Process: 919361] [Thread: 919361] [debug] [AlleleCount] Create array
+[2025-12-23 14:32:31.025] [tiledb-vcf] [Process: 919361] [Thread: 919361] [debug] Adding array 'allele_count' to group 'vcf_dbs//hvcf_dataset'
+[2025-12-23 14:32:31.031] [tiledb-vcf] [Process: 919361] [Thread: 919361] [debug] [VariantStats] Create array
+[2025-12-23 14:32:31.034] [tiledb-vcf] [Process: 919361] [Thread: 919361] [debug] Adding array 'variant_stats' to group 'vcf_dbs//hvcf_dataset'
+[2025-12-23 14:32:31.039] [tiledb-vcf] [Process: 919361] [Thread: 919361] [debug] [SampleStats] create array
+[2025-12-23 14:32:31.043] [tiledb-vcf] [Process: 919361] [Thread: 919361] [debug] [SampleStats] Adding array 'sample_stats' to group 'vcf_dbs//hvcf_dataset'
+[2025-12-23 14:32:31.051] [tiledb-vcf] [Process: 919361] [Thread: 919361] [debug] TileDB Groups: 
+hvcf_dataset GROUP
+|-- sample_stats ARRAY
+|-- variant_stats ARRAY
+|-- allele_count ARRAY
+|-- data ARRAY
+|-- vcf_headers ARRAY
+|-- metadata GROUP
+
+[2025-12-23 14:32:31.051] [tiledb-vcf] [Process: 919361] [Thread: 919361] [debug] Group member name='sample_stats' uri='file:///scratch/PHG_scripts/PHGv2Tools/Example_database/vcf_dbs/hvcf_dataset/sample_stats'
+[2025-12-23 14:32:31.051] [tiledb-vcf] [Process: 919361] [Thread: 919361] [debug] Group member name='variant_stats' uri='file:///scratch/PHG_scripts/PHGv2Tools/Example_database/vcf_dbs/hvcf_dataset/variant_stats'
+[2025-12-23 14:32:31.051] [tiledb-vcf] [Process: 919361] [Thread: 919361] [debug] Group member name='allele_count' uri='file:///scratch/PHG_scripts/PHGv2Tools/Example_database/vcf_dbs/hvcf_dataset/allele_count'
+[2025-12-23 14:32:31.051] [tiledb-vcf] [Process: 919361] [Thread: 919361] [debug] Group member name='data' uri='file:///scratch/PHG_scripts/PHGv2Tools/Example_database/vcf_dbs/hvcf_dataset/data'
+[2025-12-23 14:32:31.051] [tiledb-vcf] [Process: 919361] [Thread: 919361] [debug] Group member name='vcf_headers' uri='file:///scratch/PHG_scripts/PHGv2Tools/Example_database/vcf_dbs/hvcf_dataset/metadata/vcf_headers'
+[2025-12-23 14:32:31.051] [tiledb-vcf] [Process: 919361] [Thread: 919361] [debug] Group member name='metadata' uri='file:///scratch/PHG_scripts/PHGv2Tools/Example_database/vcf_dbs/hvcf_dataset/metadata'
+[2025-12-23 14:32:33.790] [tiledb-vcf] [Process: 920691] [Thread: 920691] [info] Version:
+TileDB-VCF version 0.37.0
+TileDB version 2.27.2
+htslib version 1.21
+[2025-12-23 14:32:33.790] [tiledb-vcf] [Process: 920691] [Thread: 920691] [info] Command options:
+uri="vcf_dbs//gvcf_dataset"
+attributes="[]"
+vcf-attributes=""
+anchor-gap=1000000
+no-duplicates=true
+compress-sample-dim=false
+compression-level=4
+enable-allele-count=false
+enable-variant-stats=false
+enable-sample-stats=false
+tile-capacity=10000
+tiledb-config="[]"
+checksum=13
+variant-stats-version=''
+log-level="debug"
+log-file="vcf_dbs//temp/tiledbvcf_createHvcf.log"
+
+[2025-12-23 14:32:33.860] [tiledb-vcf] [Process: 920691] [Thread: 920691] [debug] Adding array name='vcf_headers' uri='metadata/vcf_headers' to group uri='vcf_dbs//gvcf_dataset'
+[2025-12-23 14:32:33.860] [tiledb-vcf] [Process: 920691] [Thread: 920691] [debug] Adding group name='metadata' uri='metadata' to group uri='vcf_dbs//gvcf_dataset'
+[2025-12-23 14:32:33.866] [tiledb-vcf] [Process: 920691] [Thread: 920691] [debug] Adding array name='data' uri='data' to group uri='vcf_dbs//gvcf_dataset'
+[2025-12-23 14:32:33.869] [tiledb-vcf] [Process: 920691] [Thread: 920691] [debug] [AlleleCount] Create array
+[2025-12-23 14:32:33.872] [tiledb-vcf] [Process: 920691] [Thread: 920691] [debug] Adding array 'allele_count' to group 'vcf_dbs//gvcf_dataset'
+[2025-12-23 14:32:33.879] [tiledb-vcf] [Process: 920691] [Thread: 920691] [debug] [VariantStats] Create array
+[2025-12-23 14:32:33.882] [tiledb-vcf] [Process: 920691] [Thread: 920691] [debug] Adding array 'variant_stats' to group 'vcf_dbs//gvcf_dataset'
+[2025-12-23 14:32:33.887] [tiledb-vcf] [Process: 920691] [Thread: 920691] [debug] [SampleStats] create array
+[2025-12-23 14:32:33.890] [tiledb-vcf] [Process: 920691] [Thread: 920691] [debug] [SampleStats] Adding array 'sample_stats' to group 'vcf_dbs//gvcf_dataset'
+[2025-12-23 14:32:33.900] [tiledb-vcf] [Process: 920691] [Thread: 920691] [debug] TileDB Groups: 
+gvcf_dataset GROUP
+|-- sample_stats ARRAY
+|-- variant_stats ARRAY
+|-- allele_count ARRAY
+|-- data ARRAY
+|-- vcf_headers ARRAY
+|-- metadata GROUP
+
+[2025-12-23 14:32:33.900] [tiledb-vcf] [Process: 920691] [Thread: 920691] [debug] Group member name='sample_stats' uri='file:///scratch/PHG_scripts/PHGv2Tools/Example_database/vcf_dbs/gvcf_dataset/sample_stats'
+[2025-12-23 14:32:33.900] [tiledb-vcf] [Process: 920691] [Thread: 920691] [debug] Group member name='variant_stats' uri='file:///scratch/PHG_scripts/PHGv2Tools/Example_database/vcf_dbs/gvcf_dataset/variant_stats'
+[2025-12-23 14:32:33.900] [tiledb-vcf] [Process: 920691] [Thread: 920691] [debug] Group member name='allele_count' uri='file:///scratch/PHG_scripts/PHGv2Tools/Example_database/vcf_dbs/gvcf_dataset/allele_count'
+[2025-12-23 14:32:33.900] [tiledb-vcf] [Process: 920691] [Thread: 920691] [debug] Group member name='data' uri='file:///scratch/PHG_scripts/PHGv2Tools/Example_database/vcf_dbs/gvcf_dataset/data'
+[2025-12-23 14:32:33.900] [tiledb-vcf] [Process: 920691] [Thread: 920691] [debug] Group member name='vcf_headers' uri='file:///scratch/PHG_scripts/PHGv2Tools/Example_database/vcf_dbs/gvcf_dataset/metadata/vcf_headers'
+[2025-12-23 14:32:33.900] [tiledb-vcf] [Process: 920691] [Thread: 920691] [debug] Group member name='metadata' uri='file:///scratch/PHG_scripts/PHGv2Tools/Example_database/vcf_dbs/gvcf_dataset/metadata'
+[2026-01-19 09:52:50.761] [tiledb-vcf] [Process: 1222596] [Thread: 1222596] [info] Version:
+TileDB-VCF version 0.37.0
+TileDB version 2.27.2
+htslib version 1.21
+[2026-01-19 09:52:50.769] [tiledb-vcf] [Process: 1222596] [Thread: 1222596] [info] Command options:
+uri="vcf_dbs//hvcf_dataset"
+attributes="[]"
+vcf-attributes=""
+anchor-gap=1000
+no-duplicates=true
+compress-sample-dim=false
+compression-level=4
+enable-allele-count=false
+enable-variant-stats=false
+enable-sample-stats=false
+tile-capacity=10000
+tiledb-config="[]"
+checksum=13
+variant-stats-version=''
+log-level="debug"
+log-file="vcf_dbs//temp/tiledbvcf_createHvcf.log"
+
+[2026-01-19 09:52:50.859] [tiledb-vcf] [Process: 1222596] [Thread: 1222596] [debug] Adding array name='vcf_headers' uri='metadata/vcf_headers' to group uri='vcf_dbs//hvcf_dataset'
+[2026-01-19 09:52:50.859] [tiledb-vcf] [Process: 1222596] [Thread: 1222596] [debug] Adding group name='metadata' uri='metadata' to group uri='vcf_dbs//hvcf_dataset'
+[2026-01-19 09:52:50.865] [tiledb-vcf] [Process: 1222596] [Thread: 1222596] [debug] Adding array name='data' uri='data' to group uri='vcf_dbs//hvcf_dataset'
+[2026-01-19 09:52:50.869] [tiledb-vcf] [Process: 1222596] [Thread: 1222596] [debug] [AlleleCount] Create array
+[2026-01-19 09:52:50.873] [tiledb-vcf] [Process: 1222596] [Thread: 1222596] [debug] Adding array 'allele_count' to group 'vcf_dbs//hvcf_dataset'
+[2026-01-19 09:52:50.878] [tiledb-vcf] [Process: 1222596] [Thread: 1222596] [debug] [VariantStats] Create array
+[2026-01-19 09:52:50.881] [tiledb-vcf] [Process: 1222596] [Thread: 1222596] [debug] Adding array 'variant_stats' to group 'vcf_dbs//hvcf_dataset'
+[2026-01-19 09:52:50.887] [tiledb-vcf] [Process: 1222596] [Thread: 1222596] [debug] [SampleStats] create array
+[2026-01-19 09:52:50.896] [tiledb-vcf] [Process: 1222596] [Thread: 1222596] [debug] [SampleStats] Adding array 'sample_stats' to group 'vcf_dbs//hvcf_dataset'
+[2026-01-19 09:52:50.905] [tiledb-vcf] [Process: 1222596] [Thread: 1222596] [debug] TileDB Groups: 
+hvcf_dataset GROUP
+|-- sample_stats ARRAY
+|-- variant_stats ARRAY
+|-- allele_count ARRAY
+|-- data ARRAY
+|-- vcf_headers ARRAY
+|-- metadata GROUP
+
+[2026-01-19 09:52:50.905] [tiledb-vcf] [Process: 1222596] [Thread: 1222596] [debug] Group member name='sample_stats' uri='file:///scratch/PHG_scripts/PHGv2Tools/Example_database/vcf_dbs/hvcf_dataset/sample_stats'
+[2026-01-19 09:52:50.905] [tiledb-vcf] [Process: 1222596] [Thread: 1222596] [debug] Group member name='variant_stats' uri='file:///scratch/PHG_scripts/PHGv2Tools/Example_database/vcf_dbs/hvcf_dataset/variant_stats'
+[2026-01-19 09:52:50.905] [tiledb-vcf] [Process: 1222596] [Thread: 1222596] [debug] Group member name='allele_count' uri='file:///scratch/PHG_scripts/PHGv2Tools/Example_database/vcf_dbs/hvcf_dataset/allele_count'
+[2026-01-19 09:52:50.905] [tiledb-vcf] [Process: 1222596] [Thread: 1222596] [debug] Group member name='data' uri='file:///scratch/PHG_scripts/PHGv2Tools/Example_database/vcf_dbs/hvcf_dataset/data'
+[2026-01-19 09:52:50.905] [tiledb-vcf] [Process: 1222596] [Thread: 1222596] [debug] Group member name='vcf_headers' uri='file:///scratch/PHG_scripts/PHGv2Tools/Example_database/vcf_dbs/hvcf_dataset/metadata/vcf_headers'
+[2026-01-19 09:52:50.905] [tiledb-vcf] [Process: 1222596] [Thread: 1222596] [debug] Group member name='metadata' uri='file:///scratch/PHG_scripts/PHGv2Tools/Example_database/vcf_dbs/hvcf_dataset/metadata'
+[2026-01-19 09:52:53.735] [tiledb-vcf] [Process: 1223923] [Thread: 1223923] [info] Version:
+TileDB-VCF version 0.37.0
+TileDB version 2.27.2
+htslib version 1.21
+[2026-01-19 09:52:53.735] [tiledb-vcf] [Process: 1223923] [Thread: 1223923] [info] Command options:
+uri="vcf_dbs//gvcf_dataset"
+attributes="[]"
+vcf-attributes=""
+anchor-gap=1000000
+no-duplicates=true
+compress-sample-dim=false
+compression-level=4
+enable-allele-count=false
+enable-variant-stats=false
+enable-sample-stats=false
+tile-capacity=10000
+tiledb-config="[]"
+checksum=13
+variant-stats-version=''
+log-level="debug"
+log-file="vcf_dbs//temp/tiledbvcf_createHvcf.log"
+
+[2026-01-19 09:52:53.888] [tiledb-vcf] [Process: 1223923] [Thread: 1223923] [debug] Adding array name='vcf_headers' uri='metadata/vcf_headers' to group uri='vcf_dbs//gvcf_dataset'
+[2026-01-19 09:52:53.888] [tiledb-vcf] [Process: 1223923] [Thread: 1223923] [debug] Adding group name='metadata' uri='metadata' to group uri='vcf_dbs//gvcf_dataset'
+[2026-01-19 09:52:53.893] [tiledb-vcf] [Process: 1223923] [Thread: 1223923] [debug] Adding array name='data' uri='data' to group uri='vcf_dbs//gvcf_dataset'
+[2026-01-19 09:52:53.902] [tiledb-vcf] [Process: 1223923] [Thread: 1223923] [debug] [AlleleCount] Create array
+[2026-01-19 09:52:53.906] [tiledb-vcf] [Process: 1223923] [Thread: 1223923] [debug] Adding array 'allele_count' to group 'vcf_dbs//gvcf_dataset'
+[2026-01-19 09:52:53.912] [tiledb-vcf] [Process: 1223923] [Thread: 1223923] [debug] [VariantStats] Create array
+[2026-01-19 09:52:53.915] [tiledb-vcf] [Process: 1223923] [Thread: 1223923] [debug] Adding array 'variant_stats' to group 'vcf_dbs//gvcf_dataset'
+[2026-01-19 09:52:53.921] [tiledb-vcf] [Process: 1223923] [Thread: 1223923] [debug] [SampleStats] create array
+[2026-01-19 09:52:53.924] [tiledb-vcf] [Process: 1223923] [Thread: 1223923] [debug] [SampleStats] Adding array 'sample_stats' to group 'vcf_dbs//gvcf_dataset'
+[2026-01-19 09:52:53.934] [tiledb-vcf] [Process: 1223923] [Thread: 1223923] [debug] TileDB Groups: 
+gvcf_dataset GROUP
+|-- sample_stats ARRAY
+|-- variant_stats ARRAY
+|-- allele_count ARRAY
+|-- data ARRAY
+|-- vcf_headers ARRAY
+|-- metadata GROUP
+
+[2026-01-19 09:52:53.934] [tiledb-vcf] [Process: 1223923] [Thread: 1223923] [debug] Group member name='sample_stats' uri='file:///scratch/PHG_scripts/PHGv2Tools/Example_database/vcf_dbs/gvcf_dataset/sample_stats'
+[2026-01-19 09:52:53.934] [tiledb-vcf] [Process: 1223923] [Thread: 1223923] [debug] Group member name='variant_stats' uri='file:///scratch/PHG_scripts/PHGv2Tools/Example_database/vcf_dbs/gvcf_dataset/variant_stats'
+[2026-01-19 09:52:53.934] [tiledb-vcf] [Process: 1223923] [Thread: 1223923] [debug] Group member name='allele_count' uri='file:///scratch/PHG_scripts/PHGv2Tools/Example_database/vcf_dbs/gvcf_dataset/allele_count'
+[2026-01-19 09:52:53.934] [tiledb-vcf] [Process: 1223923] [Thread: 1223923] [debug] Group member name='data' uri='file:///scratch/PHG_scripts/PHGv2Tools/Example_database/vcf_dbs/gvcf_dataset/data'
+[2026-01-19 09:52:53.934] [tiledb-vcf] [Process: 1223923] [Thread: 1223923] [debug] Group member name='vcf_headers' uri='file:///scratch/PHG_scripts/PHGv2Tools/Example_database/vcf_dbs/gvcf_dataset/metadata/vcf_headers'
+[2026-01-19 09:52:53.934] [tiledb-vcf] [Process: 1223923] [Thread: 1223923] [debug] Group member name='metadata' uri='file:///scratch/PHG_scripts/PHGv2Tools/Example_database/vcf_dbs/gvcf_dataset/metadata'

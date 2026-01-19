@@ -1,0 +1,3 @@
+data/prepared_assemblies/Bla-1.fa
+data/prepared_assemblies/Cvi-0.fa
+data/prepared_assemblies/Ita-0.fa

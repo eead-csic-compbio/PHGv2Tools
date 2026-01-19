@@ -1,0 +1,5 @@
+# file name	# new name
+Col0.fa	Col-0
+GCA_036942965.1.fa	Ita-0
+GCA_036942445.1.fa	Bla-1
+GCA_036942575.1.fa	Cvi-0
