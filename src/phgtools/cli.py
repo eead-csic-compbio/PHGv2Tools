@@ -53,7 +53,7 @@ COMMAND_MAP = {
     "core-range-detector": {
         "module": coreRangeDetector,
         "help": "Detect and analyze core, unique, and accessory ranges from pangenome hVCF file.",
-        "usage": "phgtools core-range-detector <pangenome.hvcf> [-v]"
+        "usage": "phgtools core-range-detector <pangenome.hvcf> [-v] [-f <figure_format: png, pdf, svg>]"
     },
     "check-haplotype-alleles": {
         "module": CheckHaplotypeAllelesInPangenome,
