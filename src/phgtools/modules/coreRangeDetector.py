@@ -185,7 +185,7 @@ def DetermineCoreRanges(hvcf_input):
     return total_ranges, unique_ranges, core_ranges, accessory_count, dict_ranges_count, genotype_counts
 
 
-def PrintCoreRangesStats(hvcf_input):
+def PrintCoreRangesStats(hvcf_input,figformat):
     """
     Print formatted statistics about core, unique, and accessory ranges,
     and generate visualizations (bar plot and pie chart).
@@ -194,6 +194,8 @@ def PrintCoreRangesStats(hvcf_input):
     -----------
     hvcf_input : str
         Path to the merged pangenome hVCF file
+    figformat : str
+        Format of output (png, pdf, svg)
     """
     merged_file = hvcf_input
     
@@ -226,17 +228,19 @@ def PrintCoreRangesStats(hvcf_input):
     print("-" * 70 + "\n")
     
     # Generate visualizations
-    GenerateVisualizations(dict_ranges_count, core_ranges, unique_ranges, accessory_count, 
+    GenerateVisualizations(figformat, dict_ranges_count, core_ranges, unique_ranges, accessory_count, 
                           total_ranges, num_of_genomes, hvcf_input)
 
 
-def GenerateVisualizations(dict_ranges_count, core_ranges, unique_ranges, accessory_count, 
+def GenerateVisualizations(figformat='png',dict_ranges_count, core_ranges, unique_ranges, accessory_count, 
                           total_ranges, num_of_genomes, hvcf_input):
     """
     Generate bar plot and pie chart visualizations for range analysis.
     
     Parameters:
     -----------
+    figformat : str
+        Format of output figure supported by matplotlib ('png', 'pdf', 'svg')
     dict_ranges_count : dict
         Dictionary with count by genome number
     core_ranges : int
@@ -291,8 +295,8 @@ def GenerateVisualizations(dict_ranges_count, core_ranges, unique_ranges, access
             wedgeprops=dict(edgecolor='black', linewidth=1.5))
     
     # Save figure
-    output_file = hvcf_input.replace('.h.vcf.gz', '').replace('.h.vcf', '') + '_analysis.png'
-    plt.savefig(output_file, dpi=300, bbox_inches='tight')
+    output_file = hvcf_input.replace('.h.vcf.gz', '').replace('.h.vcf', '') + '_analysis.' + figformat
+    plt.savefig(format=figformat, output_file, dpi=300, bbox_inches='tight')
     print(f"Visualization saved to: {output_file}\n")
     
     # Display plot
@@ -319,19 +323,24 @@ def main(args):
         help="Path to merged pangenome hVCF file (.h.vcf or .h.vcf.gz)"
     )
     parser.add_argument("-v", "--verbose", action="store_true", help="Enable verbose output")
-    
+   
+    parser.add_argument(
+        "-f", "--format", default='png', help="format of output (png, pdf, svg), default: png"
+    )
+
     parsed_args = parser.parse_args(args)
     
     hvcf_input = parsed_args.merged_hvcf
     verbose = parsed_args.verbose
-    
+    figformat = parsed_args.format
+
     try:
         if verbose:
             # print(f"Analyzing merged pangenome file: {hvcf_input}\n")
             pass
         
         # Print statistics
-        PrintCoreRangesStats(hvcf_input)
+        PrintCoreRangesStats(hvcf_input,figformat)
     
     except FileNotFoundError as e:
         print(f"Error: {e}")
