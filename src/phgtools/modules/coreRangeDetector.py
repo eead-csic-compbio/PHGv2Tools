@@ -176,7 +176,7 @@ def DetermineCoreRanges(hvcf_input):
         print(f"Accessory ranges: {accessory_count}")
         print(f"Sum of categories: {core_ranges + unique_ranges + accessory_count}")
         print(f"\nNumber of genomes: {num_of_genomes}")
-        print(f"Ranges by genome count:")
+        print(f"Ranges by genome occupancy:")
         for gn in sorted(dict_ranges_count.keys()):
             print(f"  {gn}: {dict_ranges_count[gn]}")
         print("="*70 + "\n")
