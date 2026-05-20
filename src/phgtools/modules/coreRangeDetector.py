@@ -228,12 +228,12 @@ def PrintCoreRangesStats(hvcf_input,figformat):
     print("-" * 70 + "\n")
     
     # Generate visualizations
-    GenerateVisualizations(figformat, dict_ranges_count, core_ranges, unique_ranges, accessory_count, 
-                          total_ranges, num_of_genomes, hvcf_input)
+    GenerateVisualizations(dict_ranges_count, core_ranges, unique_ranges, accessory_count, 
+                          total_ranges, num_of_genomes, hvcf_input, figformat)
 
 
-def GenerateVisualizations(figformat='png',dict_ranges_count, core_ranges, unique_ranges, accessory_count, 
-                          total_ranges, num_of_genomes, hvcf_input):
+def GenerateVisualizations(dict_ranges_count, core_ranges, unique_ranges, accessory_count, 
+                          total_ranges, num_of_genomes, hvcf_input, figformat='png'):
     """
     Generate bar plot and pie chart visualizations for range analysis.
     
@@ -255,6 +255,8 @@ def GenerateVisualizations(figformat='png',dict_ranges_count, core_ranges, uniqu
         Total number of genomes
     hvcf_input : str
         Path to input file (used for title)
+    figformat : str
+        Format of output figure supported by matplotlib ('png', 'pdf', 'svg') 
     """
     # Create figure with 2 subplots
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14, 5))
@@ -296,7 +298,7 @@ def GenerateVisualizations(figformat='png',dict_ranges_count, core_ranges, uniqu
     
     # Save figure
     output_file = hvcf_input.replace('.h.vcf.gz', '').replace('.h.vcf', '') + '_analysis.' + figformat
-    plt.savefig(format=figformat, output_file, dpi=300, bbox_inches='tight')
+    plt.savefig(output_file, format=figformat, dpi=300, bbox_inches='tight')
     print(f"Visualization saved to: {output_file}\n")
     
     # Display plot
